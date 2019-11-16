@@ -1,0 +1,39 @@
+<?php ?>
+
+<section id="hero">
+    <div id="" class="bg-blue px2" style="height: 200px; padding-top:177px; background-image:url(-assets/images/noise.png);">
+        <div class="container">
+            <h1 class="white m0 relative caps h1">Contact</h1>
+            <nav class="breadcrumb sm-show" role="navigation">
+                <ul class="list-reset">
+                    <li class="inline-block">
+                        <a href="http://aristotheme.com/kaunos" class="button button-narrow"> Home </a>
+                    </li>
+                    <li class="inline-block">
+                        <a href="http://aristotheme.com/kaunos/contact" class="button button-narrow"> Contact </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</section>
+
+
+<main id="main" class="container px3 py4" role="main">
+    <section class="contact container overflow-hidden">
+        <div class="clearfix">
+            <div class="sm-col sm-col-6">
+                <h2>Say Hello</h2>
+                <p>Bacon ipsum dolor sit amet chuck prosciutto landjaeger ham hock filet mignon shoulder hamburger pig venison. Ham bacon corned beef, sausage kielbasa flank tongue pig drumstick capicola swine short loin ham hock kevin.</p>
+                <br/><br/>
+                <h4>Brooklyn, NY</h4>
+                <br/>
+                <!-- <span class="prefix">Phone:</span>1 800 999 9999<br/> -->
+                <span class="prefix">Email:</span><a href="mailto:bzhickson@gmail.com" target="_blank">bzhickson@gmail.com</a><br/>
+                <!-- <span class="prefix">Website:</span><a href="//benhickson.com" target="_blank">benhickson.com</a><br/> -->
+                <!-- <span class="prefix">Twitter:</span><a href="//twitter.com/disabled" target="_blank">@disabled</a><br/> -->
+                <span class="prefix">Instagram:</span><a href="//instagram.com/benhickson" target="_blank">@benhickson</a><br/>
+            </div>
+        </div>
+    </section>
+</main>

@@ -1,0 +1,75 @@
+<?php
+
+// Load the array of content
+require 'portfolio.file';
+
+// First case: there's no project set, show the portfolio page
+if (!isset($_GET['project'])) {
+?>
+
+<section id="hero">
+	<div id="" class="bg-blue px2" style="height: 200px; padding-top:177px; background-image:url(-assets/images/noise.png);">
+		<div class="container">
+			<h1 class="white m0 relative caps h1">Portfolio</h1>
+		  	<nav class="breadcrumb sm-show" role="navigation">
+				<ul class="list-reset">
+					<li class="inline-block">
+						<a href="" class="button button-narrow"> Home </a>
+					</li>		
+					<li class="inline-block">
+						<a href="portfolio" class="button button-narrow"> Portfolio </a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+</section>
+
+<?php 
+
+	$pagejstag = '<script src="-includes/js/projects.min.js"></script>';
+	require 'portfolio-view.file';
+
+
+// Second case: the project that is set exists
+} else if (array_key_exists($_GET['project'], $portfolio)) {
+?>
+
+
+<section id="hero">
+	<div id="" class="bg-blue px2" style="height: 200px; padding-top:177px; background-image:url(-assets/images/noise.png);">
+		<div class="container">
+			<h1 class="white m0 relative caps h1"><?php echo $portfolio[$_GET['project']]['title']; ?></h1>
+			<nav class="breadcrumb sm-show" role="navigation">
+				<ul class="list-reset">
+					<li class="inline-block">
+						<a href="" class="button button-narrow"> Home </a>
+					</li>
+					<li class="inline-block">
+						<a href="portfolio" class="button button-narrow"> Portfolio </a>
+					</li>
+					<li class="inline-block">
+						<a href="portfolio/?project=<?php echo $_GET['project']; ?>" class="button button-narrow"> <?php echo $portfolio[$_GET['project']]['title']; ?> </a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+</section>
+
+<?php
+
+	$pagejstag = '';
+	require 'portfolio-item-view.file';
+
+
+
+// Third/Final case: the project that is set does not exist... redirect the user back.
+} else {
+	// redirect and lose the parameters
+	// error_log($_GET['project']." does not appear in ".print_r($portfolio));
+	header('Location: index.php');
+	$pagejstag = '';
+	// print_r($_GET);
+}
+?>

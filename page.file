@@ -1,0 +1,31 @@
+<?php
+
+$pagejstag = '<script src="-includes/js/home.min.js"></script>';
+
+?>
+
+<section id="hero">
+	<div id="large-header" class="large-header bg-blue m0" style="height: 100vh; background-image: url(-assets/images/noise.png); overflow: hidden; background: #000;">
+		<video src="-assets/videos/C1688.mp4" muted="" autoplay="" loop="" style="
+			position: absolute;
+			top: 50%; 
+			left: 50%;
+			-webkit-transform: translateX(-50%) translateY(-50%);
+			transform: translateX(-50%) translateY(-50%);
+			min-width: 100%; 
+			min-height: 100%; 
+			width: auto; 
+			height: auto;
+			overflow: hidden;
+			pointer-events: none;
+			opacity: 0.8;
+		"></video>
+		<canvas id="animated-background" style="z-index: 1;"></canvas>
+		<div class="hero-title absolute m0 center caps"><p>Filmmaker, Artist, Programmer</p></div>
+	</div>
+</section>
+
+<?php 
+require 'portfolio/portfolio.file';
+require 'portfolio/portfolio-view.file'; 
+?>
