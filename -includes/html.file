@@ -27,33 +27,6 @@
 <!-- JS -->
 <script src="-includes/js/main.min.js"></script>
 
-<script type="text/javascript">
-
-// listening to left and right arrow keys to move between portfolio pages
-$(document).keydown(function(e) {
-    switch(e.which) {
-        case 37: // left
-          window.location.href = $('#leftLink').attr('href');
-        break;
-
-        // case 38: // up
-        // break;
-
-        case 39: // right
-          window.location.href = $('#rightLink').attr('href');
-        break;
-
-        // case 40: // down
-        // break;
-
-        default: return; // exit this handler for other keys
-    }
-    e.preventDefault(); // prevent the default action (scroll / move caret)
-});
-
-</script>
-
-
 <?php 
 
 echo $pagejstag;
