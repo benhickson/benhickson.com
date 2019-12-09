@@ -17,19 +17,18 @@
 				<!-- <p>In enim justo, rhoncus ut, imperdiet a,<strong> venenatis vitae</strong>, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. <a href="#">Vivamus elementum semper nisi.</a> Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, <em>viverra quis</em>, feugiat a.</p> -->
 			</li>
 		</ul>
-		<figure class="py4">
-			<img src="-assets/images/1-portfolio-item.jpg" alt="1-portfolio-item">
-		</figure>
-		<div class="oembed oembed-a752ea oembed-video oembed-lazyvideo" style="padding-top:56.25%">
-			<div class="play">
-				<img src="-assets/images/oembed-play.png" alt="Play">
-			</div>
-			<div class="thumb" style="background-image: url(https://i.vimeocdn.com/video/457028321_295x166.jpg)"></div>
-			<iframe seamless="" allowfullscreen="" src="https://player.vimeo.com/video/80796396?autoplay=1&amp;byline=0&amp;portrait=0"></iframe>
-		</div>
-		<figure class="py4">
-			<img src="-assets/images/2-portfolio-item.jpg" alt="2-portfolio-item">
-		</figure>
+		<?php if ($portfolio[$_GET['project']]['vimeoid'] != ''){ ?>
+			<iframe style="width: 100%; height: 52.15vw;" class="vimeo" src="https://player.vimeo.com/video/<?php echo $portfolio[$_GET['project']]['vimeoid']; ?>" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+		<?php } 
+		foreach ($portfolio[$_GET['project']]['images'] as $image) {
+			?>
+			<figure class="py4">
+				<img src="-assets/images/<?php echo $image; ?>">
+			</figure>			
+			<?php
+		}
+		?>
+
 		<!-- foreach loop with subpages -->
 		<div class="pagination clearfix py4">
 			<a id="leftLink" href="portfolio/<?php echo $portfolio[$_GET['project']]['prev']; ?>" class="left button"><svg class="icon" data-icon="chevron-left" viewBox="0 0 32 32" style="fill:currentcolor"><path d="M20 1 L24 5 L14 16 L24 27 L20 31 L6 16 z "></path></svg>&nbsp;&nbsp;&nbsp;Previous</a>
