@@ -5,3 +5,8 @@ RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^portfolio/(.*)?$ portfolio/?project=$1 [L]
+
+<FilesMatch "\.(htaccess|file)$">
+Order Allow,Deny
+Deny from all
+</FilesMatch>
