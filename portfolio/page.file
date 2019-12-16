@@ -1,13 +1,4 @@
-<?php 
-require 'portfolio.file';
-if (isset($_GET['project']) && array_key_exists($_GET['project'], $portfolio)) {
-	// set the project variable
-	$project = $portfolio[$_GET['project']];
-} else {
-	// redirect to the homepage
-	header('Location: ..');
-}
-?>
+
 		<div class="section">
 			<div class="w-container">
 				<div class="photo-row w-row">

@@ -14,7 +14,22 @@
 				<a href="" class="brand-link w-nav-brand">
 					<h1 class="brand-text">Ben Hickson</h1>
 				</a>
-				<nav role="navigation" class="navigation-menu w-nav-menu"><a href="" class="navigation-link w-nav-link">Home</a><a href="blog" class="navigation-link w-nav-link">Blog</a><a href="about" class="navigation-link w-nav-link w--current">About</a></nav>
+				<nav role="navigation" class="navigation-menu w-nav-menu">
+					<?php 
+					$navlinks = array(
+						array('id'=>1,'href'=>'','text'=>'Home'),
+						// array('id'=>2,'href'=>'blog','text'=>'Blog'), 			// Blog disabled
+						array('id'=>3,'href'=>'about','text'=>'About')
+					);
+					foreach ($navlinks as $link) {
+					?>
+					<a href="<?php echo $link['href']; ?>" class="navigation-link w-nav-link<?php 
+						if ($pageid == $link['id']) { echo ' w--current'; }
+					?>"><?php echo $link['text'] ?></a>
+					<?php
+					}
+					?>
+				</nav>
 				<div class="hamburger-button w-nav-button">
 					<div class="w-icon-nav-menu"></div>
 				</div>

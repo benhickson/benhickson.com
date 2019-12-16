@@ -124,7 +124,7 @@ $portfolio = array(
 						  'vimeoid'=>''),
 
 	'cfda' => array('title'=>'CFDA Eco Fashion Challenge','description'=>'Case Study Film, DP','filter_groups'=>'producing','thumbnail'=>'3_thumb.png',
-						  'client'=>'Google','roles'=>'Producer',
+						  'client'=>'CFDA: Council of Fashion Designers of America','roles'=>'Producer',
 						  'bodytext'=>'Lorem Ipsum Lorem lorem.',
 						  'bodyimages'=>array(
 						  	array('filename'=>'1_thumb.png', 'caption'=>'Caption'),
