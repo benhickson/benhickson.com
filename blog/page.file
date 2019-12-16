@@ -1,0 +1,61 @@
+
+		<div>
+			<div class="w-container">
+				<div class="w-dyn-list">
+					<div class="w-dyn-items">
+						<div class="blog-list-item w-dyn-item">
+							<a href="/blog-posts/london" class="blog-link w-inline-block">
+								<div class="w-row">
+									<div class="w-col w-col-4">
+										<h1 class="blog-title">London</h1>
+										<div class="blog-info-text">December 16, 2019</div>
+									</div>
+									<div class="w-col w-col-8">
+										<p>Nunc at orci aliquet, ornare ex at, dignissim lacus. Aenean ipsum justo, maximus eget maximus vel, efficitur ut dui. Donec sit amet mi non tellus tempus tempor et eget diam. Proin mollis suscipit urna, at facilisis sapien pellentesque sed. Maecenas at risus ultrices, tempus libero non, lacinia turpis</p>
+									</div>
+								</div>
+							</a>
+						</div>
+						<div class="blog-list-item w-dyn-item">
+							<a href="/blog-posts/traveler" class="blog-link w-inline-block">
+								<div class="w-row">
+									<div class="w-col w-col-4">
+										<h1 class="blog-title">Traveler</h1>
+										<div class="blog-info-text">December 16, 2019</div>
+									</div>
+									<div class="w-col w-col-8">
+										<p>Maecenas aliquet augue sed ligula eleifend, ut imperdiet sapien luctus. Aliquam dui tellus, auctor feugiat dui nec, malesuada viverra velit. Ut tellus ipsum, congue et ipsum a, rhoncus congue tortor. </p>
+									</div>
+								</div>
+							</a>
+						</div>
+						<div class="blog-list-item w-dyn-item">
+							<a href="/blog-posts/hipster" class="blog-link w-inline-block">
+								<div class="w-row">
+									<div class="w-col w-col-4">
+										<h1 class="blog-title">Hipster</h1>
+										<div class="blog-info-text">December 16, 2019</div>
+									</div>
+									<div class="w-col w-col-8">
+										<p>Vivamus a neque nec orci tincidunt laoreet. Suspendisse libero odio, euismod vulputate placerat sit amet, ornare eu nunc. Nulla facilisi. Ut lorem quam, tempus nec elit ac, aliquet lobortis justo. Curabitur tincidunt dolor quis augue lacinia, in pellentesque felis aliquam.</p>
+									</div>
+								</div>
+							</a>
+						</div>
+						<div class="blog-list-item w-dyn-item">
+							<a href="/blog-posts/modern-workplace" class="blog-link w-inline-block">
+								<div class="w-row">
+									<div class="w-col w-col-4">
+										<h1 class="blog-title">Modern Workplace</h1>
+										<div class="blog-info-text">December 16, 2019</div>
+									</div>
+									<div class="w-col w-col-8">
+										<p>Quisque sit amet egestas lectus, sagittis ornare ipsum. Nulla sed nibh ac felis laoreet luctus. Phasellus in ornare turpis, at aliquam nulla. Mauris pellentesque augue scelerisque, eleifend libero at, feugiat ligula. Nulla ligula erat, fringilla eu convallis eu, vehicula vel risus.</p>
+									</div>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>

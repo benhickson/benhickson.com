@@ -1,0 +1,7 @@
+		<div class="footer">
+			<div class="w-container">
+				<div><a href="https://www.instagram.com/benhickson/" target="_blank" class="social-icon-link w-inline-block"><img src="/wf/images/instagram.svg" width="20" alt=""/></a><a href="https://github.com/benhickson" target="_blank" class="social-icon-link w-inline-block"><img src="/wf/images/github.svg" width="20" alt=""/></a><a href="mailto:bzhickson@gmail.com" class="social-icon-link w-inline-block"><img src="/wf/images/email.svg" width="20" alt=""/></a></div>
+			</div>
+		</div>
+	</body>
+</html>
