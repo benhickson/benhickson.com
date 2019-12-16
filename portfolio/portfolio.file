@@ -114,7 +114,7 @@ $portfolio = array(
 						  ),
 						  'vimeoid'=>''),
 
-	'david dodge' => array('title'=>'David Dodge','description'=>'Case Study Film, DP','filter_groups'=>'producing','thumbnail'=>'3_thumb.png',
+	'david-dodge' => array('title'=>'David Dodge','description'=>'Case Study Film, DP','filter_groups'=>'producing','thumbnail'=>'3_thumb.png',
 						  'client'=>'Google','roles'=>'Producer',
 						  'bodytext'=>'Lorem Ipsum Lorem lorem.',
 						  'bodyimages'=>array(
