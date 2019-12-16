@@ -1,0 +1,47 @@
+<?php 
+require 'portfolio.file';
+?>
+		<div class="section">
+			<div class="w-container">
+				<div class="photo-row w-row">
+					<div class="w-col w-col-4">
+						<h1 class="photo-page-title">Clouds over Ranier</h1>
+						<div class="photo-info-text">December 16, 2019</div>
+						<div class="description-text w-richtext">
+							<p>Nam porta sodales sodales. Aliquam condimentum neque ut dui convallis finibus vitae eu mauris. Nunc nisi purus, imperdiet nec tempus mattis, luctus vitae dui. Vivamus eget ipsum massa. In luctus purus vitae vestibulum posuere. Etiam cursus elit id ultrices egestas. Proin in dictum lacus. Aenean sagittis turpis vitae erat dignissim mattis. Praesent faucibus venenatis mattis. Aliquam erat volutpat. Nunc tincidunt urna leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In hac habitasse platea dictumst. Duis sit amet molestie neque, sed congue nisl.</p>
+						</div>
+					</div>
+					<div class="w-col w-col-8">
+						<div class="w-richtext">
+							<figure data-rt-type="image" data-rt-align="fullwidth" data-rt-max-width="100" class="w-richtext-align-fullwidth" data-rt-max-height="56.25" style="max-width: 100%;">
+								<div><img src="images/1.jpg"></div>
+								<figcaption>Mt Ranier</figcaption>
+							</figure>
+							<figure data-rt-type="image" data-rt-align="fullwidth" data-rt-max-width="100" class="w-richtext-align-fullwidth" data-rt-max-height="56.25" style="max-width: 100%;">
+								<div><img src="images/2.jpg"></div>
+								<figcaption>Orange Desert</figcaption>
+							</figure>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="all-images w-container">
+				<h1 class="photo-page-title center">Portfolio</h1>
+				<div class="gallery-wrapper w-dyn-list">
+					<div class="w-dyn-items w-row">
+						<?php 
+						foreach ($portfolio as $item) {
+							?>
+						<div class="w-dyn-item w-col w-col-4">
+							<a href="portfolio/item-name" class="photo-link-block fade-in w-inline-block">
+								<div style="background-image:url(); background-color: lightblue;" class="div-block"></div>
+								<div class="title">Title</div>
+							</a>
+						</div>							
+							<?php						
+						}
+						?>
+					</div>
+				</div>
+			</div>
+		</div>

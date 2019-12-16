@@ -1,0 +1,22 @@
+
+		<div class="section">
+			<div class="container w-container">
+				<div class="w-dyn-list">
+					<div class="w-dyn-items w-row">
+							<?php 
+							require 'portfolio/portfolio.file';
+							foreach ($portfolio as $item) {
+								?>
+						<div class="w-dyn-item w-col w-col-4">
+							<a href="portfolio/item-name" class="photo-link-block fade-in w-inline-block">
+								<div style="background-image:url(); background-color: lightblue;" class="div-block"></div>
+								<div class="title">Title</div>
+							</a>
+						</div>								
+								<?php
+							}
+							?>
+					</div>
+				</div>
+			</div>
+		</div>
