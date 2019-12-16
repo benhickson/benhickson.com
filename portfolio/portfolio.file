@@ -24,79 +24,118 @@ $portfolio = array(
 	'the-runner' => array('title'=>'The Runner','description'=>'Moodfilm, DP and Editor','filter_groups'=>'camerawork filmpost','thumbnail'=>'1_thumb.png',
 						  'client'=>'Independent','roles'=>'Director of Photography, Editor',
 						  'bodytext'=>'A collaboration between myself and '.insertLink('henry').', the film explores the phsychological space that a runner shares with their own shadow. Starring '.insertLink('jody').'.',
-						  'images'=>array('1_thumb.png'),
+						  'bodyimages'=>array(
+						  	array('filename'=>'1_thumb.png', 'caption'=>'Caption'),
+						  	array('filename'=>'2_thumb.png', 'caption'=>'Caption')
+						  ),
 						  'vimeoid'=>''),
 
 	'greenland' => array('title'=>'Greenland','description'=>'Branded Content, DP','filter_groups'=>'camerawork','thumbnail'=>'2_thumb.png',
 						  'client'=>'Google','roles'=>'Camera Operator',
 						  'bodytext'=>'Google commissioned the '.insertLink('lonelyleap').' team to create a film to call attention to climate change globally. The film centers around '.insertLink('nikolaj').' (Jamie Lannister from <i>Game of Thrones</i>) trekking around small towns in southern Greenland with "The Trekker", Google\'s backpack-based panoramic Street View camera.<br /><br />I traveled from New York to Copenhagen, joined up with a crew of three Londoners and one Dane, and traveled via plane, boat, four-wheeler and helicopter to remote areas of Greenland.',
-						  'images'=>array('1-portfolio-item.jpg','2-portfolio-item.jpg'),
+						  'bodyimages'=>array(
+						  	array('filename'=>'1_thumb.png', 'caption'=>'Caption'),
+						  	array('filename'=>'2_thumb.png', 'caption'=>'Caption')
+						  ),
 						  'vimeoid'=>'374998678'),
 
 	'booking.com' => array('title'=>'Booking.com','description'=>'Case Study Film, DP','filter_groups'=>'producing','thumbnail'=>'3_thumb.png',
 						  'client'=>'Google','roles'=>'Producer',
 						  'bodytext'=>'Working at '.insertLink('lonelyleap').', I produced a case study film for Google, highlighting a client-partner of theirs, Booking.com, for the <a target="_blank" href="https://www.thinkwithgoogle.com/intl/en-145/success-stories/global-case-studies/booking-makes-last-minute-travel-easier-mobile/">Think With Google</a> blog. I handled the entire production from initial bid and preproduction, through production and post, to final delivery, collaborating closely with the client and our crew. We filmed in Amsterdam, working with local talent and fixers. Directed by '.insertLink('anne').'.',
-						  'images'=>array('1_thumb.png'),
+						  'bodyimages'=>array(
+						  	array('filename'=>'1_thumb.png', 'caption'=>'Caption'),
+						  	array('filename'=>'2_thumb.png', 'caption'=>'Caption')
+						  ),
 						  'vimeoid'=>''),
 
 	'storyweaver' => array('title'=>'Storyweaver','description'=>'Branded Content, DP','filter_groups'=>'camerawork','thumbnail'=>'5_thumb.png',
 						  'client'=>'Google','roles'=>'Director of Photography',
 						  'bodytext'=>'Lorem Ipsum Lorem lorem.',
-						  'images'=>array('1_thumb.png'),
+						  'bodyimages'=>array(
+						  	array('filename'=>'1_thumb.png', 'caption'=>'Caption'),
+						  	array('filename'=>'2_thumb.png', 'caption'=>'Caption')
+						  ),
 						  'vimeoid'=>''),
 
 	'paragon-honda' => array('title'=>'Paragon Honda','description'=>'Case Study Film, DP','filter_groups'=>'camerawork','thumbnail'=>'6_thumb.png',
 						  'client'=>'Google','roles'=>'Director of Photography',
 						  'bodytext'=>'Lorem Ipsum Lorem lorem.',
-						  'images'=>array('1_thumb.png'),
+						  'bodyimages'=>array(
+						  	array('filename'=>'1_thumb.png', 'caption'=>'Caption'),
+						  	array('filename'=>'2_thumb.png', 'caption'=>'Caption')
+						  ),
 						  'vimeoid'=>''),
 
 	'ax-connect' => array('title'=>'The Runner','description'=>'Moodfilm, DP and Editor','filter_groups'=>'camerawork filmpost','thumbnail'=>'1_thumb.png',
 						  'client'=>'Independent','roles'=>'Director of Photography, Editor',
 						  'bodytext'=>'Lorem Ipsum Lorem lorem.',
-						  'images'=>array('1_thumb.png'),
+						  'bodyimages'=>array(
+						  	array('filename'=>'1_thumb.png', 'caption'=>'Caption'),
+						  	array('filename'=>'2_thumb.png', 'caption'=>'Caption')
+						  ),
 						  'vimeoid'=>''),
 
 	'youtube-bts' => array('title'=>'Greenland','description'=>'Branded Content, DP','filter_groups'=>'camerawork','thumbnail'=>'2_thumb.png',
 						  'client'=>'Google','roles'=>'Camera Operator',
 						  'bodytext'=>'Lorem Ipsum Lorem lorem.',
-						  'images'=>array('1_thumb.png'),
+						  'bodyimages'=>array(
+						  	array('filename'=>'1_thumb.png', 'caption'=>'Caption'),
+						  	array('filename'=>'2_thumb.png', 'caption'=>'Caption')
+						  ),
 						  'vimeoid'=>''),
 
 	'ascendance' => array('title'=>'Ascendance','description'=>'Case Study Film, DP','filter_groups'=>'producing','thumbnail'=>'3_thumb.png',
 						  'client'=>'Google','roles'=>'Producer',
 						  'bodytext'=>'Lorem Ipsum Lorem lorem.',
-						  'images'=>array('1_thumb.png'),
+						  'bodyimages'=>array(
+						  	array('filename'=>'1_thumb.png', 'caption'=>'Caption'),
+						  	array('filename'=>'2_thumb.png', 'caption'=>'Caption')
+						  ),
 						  'vimeoid'=>''),
 
 	'iwc' => array('title'=>'Ascendance','description'=>'Case Study Film, DP','filter_groups'=>'producing','thumbnail'=>'3_thumb.png',
 						  'client'=>'Google','roles'=>'Producer',
 						  'bodytext'=>'Lorem Ipsum Lorem lorem.',
-						  'images'=>array('1_thumb.png'),
+						  'bodyimages'=>array(
+						  	array('filename'=>'1_thumb.png', 'caption'=>'Caption'),
+						  	array('filename'=>'2_thumb.png', 'caption'=>'Caption')
+						  ),
 						  'vimeoid'=>''),	
 
 	'chess' => array('title'=>'Ascendance','description'=>'Case Study Film, DP','filter_groups'=>'producing','thumbnail'=>'3_thumb.png',
 						  'client'=>'Google','roles'=>'Producer',
 						  'bodytext'=>'Lorem Ipsum Lorem lorem.',
-						  'images'=>array('1_thumb.png'),
+						  'bodyimages'=>array(
+						  	array('filename'=>'1_thumb.png', 'caption'=>'Caption'),
+						  	array('filename'=>'2_thumb.png', 'caption'=>'Caption')
+						  ),
 						  'vimeoid'=>''),		
 
 	'maxxx-pleasure' => array('title'=>'Ascendance','description'=>'Case Study Film, DP','filter_groups'=>'producing','thumbnail'=>'3_thumb.png',
 						  'client'=>'Google','roles'=>'Producer',
 						  'bodytext'=>'Lorem Ipsum Lorem lorem.',
-						  'images'=>array('1_thumb.png'),
+						  'bodyimages'=>array(
+						  	array('filename'=>'1_thumb.png', 'caption'=>'Caption'),
+						  	array('filename'=>'2_thumb.png', 'caption'=>'Caption')
+						  ),
 						  'vimeoid'=>''),
 
 	'david dodge' => array('title'=>'Ascendance','description'=>'Case Study Film, DP','filter_groups'=>'producing','thumbnail'=>'3_thumb.png',
 						  'client'=>'Google','roles'=>'Producer',
 						  'bodytext'=>'Lorem Ipsum Lorem lorem.',
-						  'images'=>array('1_thumb.png'),
+						  'bodyimages'=>array(
+						  	array('filename'=>'1_thumb.png', 'caption'=>'Caption'),
+						  	array('filename'=>'2_thumb.png', 'caption'=>'Caption')
+						  ),
 						  'vimeoid'=>''),
 
 	'cfda' => array('title'=>'Ascendance','description'=>'Case Study Film, DP','filter_groups'=>'producing','thumbnail'=>'3_thumb.png',
 						  'client'=>'Google','roles'=>'Producer',
 						  'bodytext'=>'Lorem Ipsum Lorem lorem.',
-						  'images'=>array('1_thumb.png'),
+						  'bodyimages'=>array(
+						  	array('filename'=>'1_thumb.png', 'caption'=>'Caption'),
+						  	array('filename'=>'2_thumb.png', 'caption'=>'Caption')
+						  ),
 						  'vimeoid'=>''),
 
 );
@@ -106,37 +145,55 @@ $portfolio_hidden = array(
 	'otto' => array('title'=>'Adwords: Otto','description'=>'Case Study Film, DP','filter_groups'=>'directing','thumbnail'=>'4_thumb.png',
 						  'client'=>'Google','roles'=>'Director',
 						  'bodytext'=>'Lorem Ipsum Lorem lorem.',
-						  'images'=>array('1_thumb.png'),
+						  'bodyimages'=>array(
+						  	array('filename'=>'1_thumb.png', 'caption'=>'Caption'),
+						  	array('filename'=>'2_thumb.png', 'caption'=>'Caption')
+						  ),
 						  'vimeoid'=>''),
 
 	'stock-archive' => array('title'=>'Stock Archive','description'=>'Case Study Film, DP','filter_groups'=>'programming filmpost','thumbnail'=>'3_thumb.png',
 						  'client'=>'Google','roles'=>'Producer',
 						  'bodytext'=>'Lorem Ipsum Lorem lorem.',
-						  'images'=>array('1_thumb.png'),
+						  'bodyimages'=>array(
+						  	array('filename'=>'1_thumb.png', 'caption'=>'Caption'),
+						  	array('filename'=>'2_thumb.png', 'caption'=>'Caption')
+						  ),
 						  'vimeoid'=>''),
 
 	'image-tagger' => array('title'=>'Magic Image Tagger','description'=>'Case Study Film, DP','filter_groups'=>'programming filmpost','thumbnail'=>'3_thumb.png',
 						  'client'=>'Google','roles'=>'Producer',
 						  'bodytext'=>'Lorem Ipsum Lorem lorem.',
-						  'images'=>array('1_thumb.png'),
+						  'bodyimages'=>array(
+						  	array('filename'=>'1_thumb.png', 'caption'=>'Caption'),
+						  	array('filename'=>'2_thumb.png', 'caption'=>'Caption')
+						  ),
 						  'vimeoid'=>''),	
 
 	'print-frameworks' => array('title'=>'Web Printing Frameworks','description'=>'Case Study Film, DP','filter_groups'=>'programming','thumbnail'=>'3_thumb.png',
 						  'client'=>'Google','roles'=>'Producer',
 						  'bodytext'=>'Lorem Ipsum Lorem lorem.',
-						  'images'=>array('1_thumb.png'),
+						  'bodyimages'=>array(
+						  	array('filename'=>'1_thumb.png', 'caption'=>'Caption'),
+						  	array('filename'=>'2_thumb.png', 'caption'=>'Caption')
+						  ),
 						  'vimeoid'=>''),
 
 	'centralize' => array('title'=>'Centralize','description'=>'Case Study Film, DP','filter_groups'=>'programming','thumbnail'=>'3_thumb.png',
 						  'client'=>'Google','roles'=>'Producer',
 						  'bodytext'=>'Lorem Ipsum Lorem lorem.',
-						  'images'=>array('1_thumb.png'),
+						  'bodyimages'=>array(
+						  	array('filename'=>'1_thumb.png', 'caption'=>'Caption'),
+						  	array('filename'=>'2_thumb.png', 'caption'=>'Caption')
+						  ),
 						  'vimeoid'=>''),	
 
 	'bp-olympics' => array('title'=>'Ascendance','description'=>'Case Study Film, DP','filter_groups'=>'producing','thumbnail'=>'3_thumb.png',
 						  'client'=>'Google','roles'=>'Producer',
 						  'bodytext'=>'Lorem Ipsum Lorem lorem.',
-						  'images'=>array('1_thumb.png'),
+						  'bodyimages'=>array(
+						  	array('filename'=>'1_thumb.png', 'caption'=>'Caption'),
+						  	array('filename'=>'2_thumb.png', 'caption'=>'Caption')
+						  ),
 						  'vimeoid'=>''),	
 
 

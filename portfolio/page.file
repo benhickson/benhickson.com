@@ -1,26 +1,34 @@
 <?php 
 require 'portfolio.file';
+if (isset($_GET['project']) && array_key_exists($_GET['project'], $portfolio)) {
+	// set the project variable
+	$project = $portfolio[$_GET['project']];
+} else {
+	// redirect to the homepage
+	header('Location: ..');
+}
 ?>
 		<div class="section">
 			<div class="w-container">
 				<div class="photo-row w-row">
 					<div class="w-col w-col-4">
-						<h1 class="photo-page-title">Clouds over Ranier</h1>
-						<div class="photo-info-text">December 16, 2019</div>
+						<h1 class="photo-page-title"><?php echo $project['title']; ?></h1>
+						<div class="photo-info-text"><?php echo $project['client']; ?></div>
 						<div class="description-text w-richtext">
-							<p>Nam porta sodales sodales. Aliquam condimentum neque ut dui convallis finibus vitae eu mauris. Nunc nisi purus, imperdiet nec tempus mattis, luctus vitae dui. Vivamus eget ipsum massa. In luctus purus vitae vestibulum posuere. Etiam cursus elit id ultrices egestas. Proin in dictum lacus. Aenean sagittis turpis vitae erat dignissim mattis. Praesent faucibus venenatis mattis. Aliquam erat volutpat. Nunc tincidunt urna leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In hac habitasse platea dictumst. Duis sit amet molestie neque, sed congue nisl.</p>
+							<p><?php echo $project['bodytext']; ?></p>
 						</div>
 					</div>
 					<div class="w-col w-col-8">
 						<div class="w-richtext">
+							<?php foreach ($project['bodyimages'] as $image) {
+								?>
 							<figure data-rt-type="image" data-rt-align="fullwidth" data-rt-max-width="100" class="w-richtext-align-fullwidth" data-rt-max-height="56.25" style="max-width: 100%;">
-								<div><img src="images/1.jpg"></div>
-								<figcaption>Mt Ranier</figcaption>
+								<div><img src="images/<?php echo $image['filename']; ?>"></div>
+								<figcaption><?php echo $image['caption']; ?></figcaption>
 							</figure>
-							<figure data-rt-type="image" data-rt-align="fullwidth" data-rt-max-width="100" class="w-richtext-align-fullwidth" data-rt-max-height="56.25" style="max-width: 100%;">
-								<div><img src="images/2.jpg"></div>
-								<figcaption>Orange Desert</figcaption>
-							</figure>
+								<?php
+							}
+							?>
 						</div>
 					</div>
 				</div>
