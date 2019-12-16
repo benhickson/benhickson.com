@@ -4,7 +4,7 @@
 				<div class="w-dyn-list">
 					<div class="w-dyn-items">
 						<div class="blog-list-item w-dyn-item">
-							<a href="/blog-posts/london" class="blog-link w-inline-block">
+							<a href="blog-posts/london" class="blog-link w-inline-block">
 								<div class="w-row">
 									<div class="w-col w-col-4">
 										<h1 class="blog-title">London</h1>
@@ -17,7 +17,7 @@
 							</a>
 						</div>
 						<div class="blog-list-item w-dyn-item">
-							<a href="/blog-posts/traveler" class="blog-link w-inline-block">
+							<a href="blog-posts/traveler" class="blog-link w-inline-block">
 								<div class="w-row">
 									<div class="w-col w-col-4">
 										<h1 class="blog-title">Traveler</h1>
@@ -30,7 +30,7 @@
 							</a>
 						</div>
 						<div class="blog-list-item w-dyn-item">
-							<a href="/blog-posts/hipster" class="blog-link w-inline-block">
+							<a href="blog-posts/hipster" class="blog-link w-inline-block">
 								<div class="w-row">
 									<div class="w-col w-col-4">
 										<h1 class="blog-title">Hipster</h1>
@@ -43,7 +43,7 @@
 							</a>
 						</div>
 						<div class="blog-list-item w-dyn-item">
-							<a href="/blog-posts/modern-workplace" class="blog-link w-inline-block">
+							<a href="blog-posts/modern-workplace" class="blog-link w-inline-block">
 								<div class="w-row">
 									<div class="w-col w-col-4">
 										<h1 class="blog-title">Modern Workplace</h1>
