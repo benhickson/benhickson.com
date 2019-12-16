@@ -1,5 +1,5 @@
 <?php
-$pagetitle = 'About';
+$pagetitle = 'Blog';
 
 require '../includes/header.file';
 require 'page.file';

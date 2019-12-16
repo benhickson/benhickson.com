@@ -16,25 +16,25 @@
 						<div class="small-list w-dyn-list">
 							<div class="w-dyn-items">
 								<div class="w-dyn-item">
-									<a href="blog-posts/london" class="small-blog-link w-inline-block w--current">
+									<a href="blog/posts/london" class="small-blog-link w-inline-block w--current">
 										<h4 class="small-blog-title">London</h4>
 										<div class="blog-info-text">December 16, 2019</div>
 									</a>
 								</div>
 								<div class="w-dyn-item">
-									<a href="blog-posts/traveler" class="small-blog-link w-inline-block">
+									<a href="blog/posts/traveler" class="small-blog-link w-inline-block">
 										<h4 class="small-blog-title">Traveler</h4>
 										<div class="blog-info-text">December 16, 2019</div>
 									</a>
 								</div>
 								<div class="w-dyn-item">
-									<a href="blog-posts/hipster" class="small-blog-link w-inline-block">
+									<a href="blog/posts/hipster" class="small-blog-link w-inline-block">
 										<h4 class="small-blog-title">Hipster</h4>
 										<div class="blog-info-text">December 16, 2019</div>
 									</a>
 								</div>
 								<div class="w-dyn-item">
-									<a href="blog-posts/modern-workplace" class="small-blog-link w-inline-block">
+									<a href="blog/posts/modern-workplace" class="small-blog-link w-inline-block">
 										<h4 class="small-blog-title">Modern Workplace</h4>
 										<div class="blog-info-text">December 16, 2019</div>
 									</a>
