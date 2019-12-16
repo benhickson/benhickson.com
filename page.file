@@ -2,21 +2,10 @@
 		<div class="section">
 			<div class="container w-container">
 				<div class="w-dyn-list">
-					<div class="w-dyn-items w-row">
-							<?php 
-							require 'portfolio/portfolio.file';
-							foreach ($portfolio as $slug => $item) {
-								?>
-						<div class="w-dyn-item w-col w-col-4">
-							<a href="portfolio/<?php echo $slug; ?>" class="photo-link-block fade-in w-inline-block">
-								<div style="background-image:url('images/<?php echo $item['thumbnail']; ?>'); background-color: lightblue;" class="div-block"></div>
-								<div class="title"><?php echo $item['title']; ?></div>
-							</a>
-						</div>								
-								<?php
-							}
-							?>
-					</div>
+					<?php
+						require 'portfolio/portfolio.file';
+						require 'portfolio/portfolio-items-html.file';
+					?>
 				</div>
 			</div>
 		</div>
