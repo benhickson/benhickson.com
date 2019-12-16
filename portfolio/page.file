@@ -19,6 +19,11 @@ if (isset($_GET['project']) && array_key_exists($_GET['project'], $portfolio)) {
 						</div>
 					</div>
 					<div class="w-col w-col-8">
+						<?php if ($project['vimeoid'] != '') { ?>						
+						<div style="padding-top:56.25%; margin-bottom: 35px;" class="w-video w-embed">
+							<iframe class="w-richtext-align-fullwidth" src="https://player.vimeo.com/video/<?php echo $project['vimeoid'] ?>?app_id=122963&amp;wmode=opaque" frameborder="0" allow="autoplay; fullscreen" allowfullscreen="" title="Vimeo: <?php echo $project['title']; ?>"></iframe>
+						</div>
+						<?php } ?>						
 						<div class="w-richtext">
 							<?php foreach ($project['bodyimages'] as $image) {
 								?>

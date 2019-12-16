@@ -12,7 +12,8 @@ $links = array(
 	'nick' => array('name'=>'Nick Enriquez','website'=>'http://www.nenriquez.com'),
 	'nate' => array('name'=>'Nathaniel Vidal','website'=>'https://nathanielvidal.com/'),
 	'maxxx' => array('name'=>'Maxxx Pleasure','website'=>'https://www.instagram.com/mr.mpleasure/'),
-	
+	'bill' => array('name'=>'Bill Kirstein','website'=>'https://www.billkirstein.com/'),
+	'cassandra' => array('name'=>'Cassandra Evanisko','website'=>'https://www.instagram.com/cevanisko/')
 );  
 
 function insertLink($shortname){
@@ -21,14 +22,6 @@ function insertLink($shortname){
 }
 
 $portfolio = array(
-	'the-runner' => array('title'=>'The Runner','description'=>'Moodfilm, DP and Editor','filter_groups'=>'camerawork filmpost','thumbnail'=>'1_thumb.png',
-						  'client'=>'Independent','roles'=>'Director of Photography, Editor',
-						  'bodytext'=>'A collaboration between myself and '.insertLink('henry').', the film explores the phsychological space that a runner shares with their own shadow. Starring '.insertLink('jody').'.',
-						  'bodyimages'=>array(
-						  	array('filename'=>'1_thumb.png', 'caption'=>'Caption'),
-						  	array('filename'=>'2_thumb.png', 'caption'=>'Caption')
-						  ),
-						  'vimeoid'=>''),
 
 	'greenland' => array('title'=>'Greenland','description'=>'Branded Content, DP','filter_groups'=>'camerawork','thumbnail'=>'2_thumb.png',
 						  'client'=>'Google','roles'=>'Camera Operator',
@@ -50,12 +43,13 @@ $portfolio = array(
 
 	'storyweaver' => array('title'=>'Storyweaver','description'=>'Branded Content, DP','filter_groups'=>'camerawork','thumbnail'=>'5_thumb.png',
 						  'client'=>'Google','roles'=>'Director of Photography',
-						  'bodytext'=>'Lorem Ipsum Lorem lorem.',
+						  'bodytext'=>'Storyweaver is an open platform for the translation of children’s books. Anyone can upload a story, with the text separated from the illustrations, and it can be translated by anyone from around the world. Research shows that children do better across a range of topics if, when they first learn to read, they can read in their mother tongue - the language they hear spoken by their family at home. This platform enables children’s books to be translated into languages and dialects that are spoken by so few people that publishers often aren’t able to reach them.<br /><br />We traveled to Bengaluru, India to meet the Pratham books and Storyweaver team, then continued to a rural village called Birbhum, in the West Bengal region near Kolkata, where a local community center is serving as a preschool for young children in a rural area. Here they can first learn to read in their local dialect, before continuing on to their formal schools where they learn in Hindi and English.<br /><br />I was the Director of Photography. Produced by '.insertLink('cassandra').' at '.insertLink('lonelyleap').', and directed by '.insertLink('anne').' and '.insertLink('bill').'.',
 						  'bodyimages'=>array(
-						  	array('filename'=>'1_thumb.png', 'caption'=>'Caption'),
-						  	array('filename'=>'2_thumb.png', 'caption'=>'Caption')
+						  	array('filename'=>'storyweaver-3.jpg', 'caption'=>'Group reading'),
+						  	array('filename'=>'storyweaver-2.jpg', 'caption'=>'A stop on the mobile library trail'),
+						  	array('filename'=>'storyweaver-1.jpg', 'caption'=>'The classroom in Birbhum'),
 						  ),
-						  'vimeoid'=>''),
+						  'vimeoid'=>'375158643'),
 
 	'paragon-honda' => array('title'=>'Paragon Honda','description'=>'Case Study Film, DP','filter_groups'=>'camerawork','thumbnail'=>'6_thumb.png',
 						  'client'=>'Google','roles'=>'Director of Photography',
@@ -66,8 +60,8 @@ $portfolio = array(
 						  ),
 						  'vimeoid'=>''),
 
-	'ax-connect' => array('title'=>'The Runner','description'=>'Moodfilm, DP and Editor','filter_groups'=>'camerawork filmpost','thumbnail'=>'1_thumb.png',
-						  'client'=>'Independent','roles'=>'Director of Photography, Editor',
+	'ax-connect' => array('title'=>'AX Connect','description'=>'Moodfilm, DP and Editor','filter_groups'=>'camerawork filmpost','thumbnail'=>'1_thumb.png',
+						  'client'=>'American Express Global Business Travel','roles'=>'Director of Photography, Editor',
 						  'bodytext'=>'Lorem Ipsum Lorem lorem.',
 						  'bodyimages'=>array(
 						  	array('filename'=>'1_thumb.png', 'caption'=>'Caption'),
@@ -75,8 +69,8 @@ $portfolio = array(
 						  ),
 						  'vimeoid'=>''),
 
-	'youtube-bts' => array('title'=>'Greenland','description'=>'Branded Content, DP','filter_groups'=>'camerawork','thumbnail'=>'2_thumb.png',
-						  'client'=>'Google','roles'=>'Camera Operator',
+	'youtube-bts' => array('title'=>'YouTube Behind the Scenes','description'=>'Branded Content, DP','filter_groups'=>'camerawork','thumbnail'=>'2_thumb.png',
+						  'client'=>'Google / YouTube','roles'=>'Camera Operator',
 						  'bodytext'=>'Lorem Ipsum Lorem lorem.',
 						  'bodyimages'=>array(
 						  	array('filename'=>'1_thumb.png', 'caption'=>'Caption'),
@@ -93,8 +87,8 @@ $portfolio = array(
 						  ),
 						  'vimeoid'=>''),
 
-	'iwc' => array('title'=>'Ascendance','description'=>'Case Study Film, DP','filter_groups'=>'producing','thumbnail'=>'3_thumb.png',
-						  'client'=>'Google','roles'=>'Producer',
+	'iwc' => array('title'=>'Carmelo Anthony and IWC','description'=>'Case Study Film, DP','filter_groups'=>'producing','thumbnail'=>'3_thumb.png',
+						  'client'=>'IWC Schaffhausen','roles'=>'Producer',
 						  'bodytext'=>'Lorem Ipsum Lorem lorem.',
 						  'bodyimages'=>array(
 						  	array('filename'=>'1_thumb.png', 'caption'=>'Caption'),
@@ -102,8 +96,8 @@ $portfolio = array(
 						  ),
 						  'vimeoid'=>''),	
 
-	'chess' => array('title'=>'Ascendance','description'=>'Case Study Film, DP','filter_groups'=>'producing','thumbnail'=>'3_thumb.png',
-						  'client'=>'Google','roles'=>'Producer',
+	'king-of-the-night' => array('title'=>'King of the Night','description'=>'Case Study Film, DP','filter_groups'=>'producing','thumbnail'=>'3_thumb.png',
+						  'client'=>'Lonelyleap Original','roles'=>'Producer',
 						  'bodytext'=>'Lorem Ipsum Lorem lorem.',
 						  'bodyimages'=>array(
 						  	array('filename'=>'1_thumb.png', 'caption'=>'Caption'),
@@ -111,7 +105,16 @@ $portfolio = array(
 						  ),
 						  'vimeoid'=>''),		
 
-	'maxxx-pleasure' => array('title'=>'Ascendance','description'=>'Case Study Film, DP','filter_groups'=>'producing','thumbnail'=>'3_thumb.png',
+	'maxxx-pleasure' => array('title'=>'Maxxx','description'=>'Case Study Film, DP','filter_groups'=>'producing','thumbnail'=>'3_thumb.png',
+						  'client'=>'Lonelyleap Original','roles'=>'Producer',
+						  'bodytext'=>'Lorem Ipsum Lorem lorem.',
+						  'bodyimages'=>array(
+						  	array('filename'=>'1_thumb.png', 'caption'=>'Caption'),
+						  	array('filename'=>'2_thumb.png', 'caption'=>'Caption')
+						  ),
+						  'vimeoid'=>''),
+
+	'david dodge' => array('title'=>'David Dodge','description'=>'Case Study Film, DP','filter_groups'=>'producing','thumbnail'=>'3_thumb.png',
 						  'client'=>'Google','roles'=>'Producer',
 						  'bodytext'=>'Lorem Ipsum Lorem lorem.',
 						  'bodyimages'=>array(
@@ -120,23 +123,14 @@ $portfolio = array(
 						  ),
 						  'vimeoid'=>''),
 
-	'david dodge' => array('title'=>'Ascendance','description'=>'Case Study Film, DP','filter_groups'=>'producing','thumbnail'=>'3_thumb.png',
+	'cfda' => array('title'=>'CFDA Eco Fashion Challenge','description'=>'Case Study Film, DP','filter_groups'=>'producing','thumbnail'=>'3_thumb.png',
 						  'client'=>'Google','roles'=>'Producer',
 						  'bodytext'=>'Lorem Ipsum Lorem lorem.',
 						  'bodyimages'=>array(
 						  	array('filename'=>'1_thumb.png', 'caption'=>'Caption'),
 						  	array('filename'=>'2_thumb.png', 'caption'=>'Caption')
 						  ),
-						  'vimeoid'=>''),
-
-	'cfda' => array('title'=>'Ascendance','description'=>'Case Study Film, DP','filter_groups'=>'producing','thumbnail'=>'3_thumb.png',
-						  'client'=>'Google','roles'=>'Producer',
-						  'bodytext'=>'Lorem Ipsum Lorem lorem.',
-						  'bodyimages'=>array(
-						  	array('filename'=>'1_thumb.png', 'caption'=>'Caption'),
-						  	array('filename'=>'2_thumb.png', 'caption'=>'Caption')
-						  ),
-						  'vimeoid'=>''),
+						  'vimeoid'=>'')
 
 );
 
@@ -187,15 +181,23 @@ $portfolio_hidden = array(
 						  ),
 						  'vimeoid'=>''),	
 
-	'bp-olympics' => array('title'=>'Ascendance','description'=>'Case Study Film, DP','filter_groups'=>'producing','thumbnail'=>'3_thumb.png',
+	'bp-olympics' => array('title'=>'BP Olympics','description'=>'Case Study Film, DP','filter_groups'=>'producing','thumbnail'=>'3_thumb.png',
 						  'client'=>'Google','roles'=>'Producer',
 						  'bodytext'=>'Lorem Ipsum Lorem lorem.',
 						  'bodyimages'=>array(
 						  	array('filename'=>'1_thumb.png', 'caption'=>'Caption'),
 						  	array('filename'=>'2_thumb.png', 'caption'=>'Caption')
 						  ),
-						  'vimeoid'=>''),	
+						  'vimeoid'=>''),
 
+	'the-runner' => array('title'=>'The Runner','description'=>'Moodfilm, DP and Editor','filter_groups'=>'camerawork filmpost','thumbnail'=>'1_thumb.png',
+						  'client'=>'Independent','roles'=>'Director of Photography, Editor',
+						  'bodytext'=>'A collaboration between myself and '.insertLink('henry').', the film explores the phsychological space that a runner shares with their own shadow. Starring '.insertLink('jody').'.',
+						  'bodyimages'=>array(
+						  	array('filename'=>'1_thumb.png', 'caption'=>'Caption'),
+						  	array('filename'=>'2_thumb.png', 'caption'=>'Caption')
+						  ),
+						  'vimeoid'=>'')
 
 );
 
