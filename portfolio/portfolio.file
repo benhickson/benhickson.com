@@ -23,12 +23,12 @@ function insertLink($shortname){
 
 $portfolio = array(
 
-	'greenland' => array('title'=>'Greenland','description'=>'Branded Content, DP','filter_groups'=>'camerawork','thumbnail'=>'2_thumb.png',
+	'greenland' => array('title'=>'Greenland','description'=>'Branded Content, DP','filter_groups'=>'camerawork','thumbnail'=>'greenland-thumb1.jpg',
 						  'client'=>'Google','roles'=>'Camera Operator',
 						  'bodytext'=>'Google commissioned the '.insertLink('lonelyleap').' team to create a film to call attention to climate change globally. The film centers around '.insertLink('nikolaj').' (Jamie Lannister from <i>Game of Thrones</i>) trekking around small towns in southern Greenland with "The Trekker", Google\'s backpack-based panoramic Street View camera.<br /><br />I traveled from New York to Copenhagen, joined up with a crew of three Londoners and one Dane, and traveled via plane, boat, four-wheeler and helicopter to remote areas of Greenland.',
 						  'bodyimages'=>array(
-						  	array('filename'=>'1_thumb.png', 'caption'=>'Caption'),
-						  	array('filename'=>'2_thumb.png', 'caption'=>'Caption')
+						  	array('filename'=>'greenland-1.jpg', 'caption'=>'Nikolaj Coster-Waldau'),
+						  	// array('filename'=>'2_thumb.png', 'caption'=>'Caption')
 						  ),
 						  'vimeoid'=>'374998678'),
 
