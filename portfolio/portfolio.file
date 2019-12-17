@@ -32,16 +32,23 @@ $portfolio = array(
 						  ),
 						  'vimeoid'=>'374998678'),
 
-	'booking.com' => array('title'=>'Booking.com','description'=>'Case Study Film, DP','filter_groups'=>'producing','thumbnail'=>'3_thumb.png',
+	'booking.com' => array('title'=>'Booking.com','description'=>'Case Study Film, DP','filter_groups'=>'producing','thumbnail'=>'booking.com-5-thumb.jpg',
 						  'client'=>'Google','roles'=>'Producer',
 						  'bodytext'=>'Working at '.insertLink('lonelyleap').', I produced a case study film for Google, highlighting a client-partner of theirs, Booking.com, for the <a target="_blank" href="https://www.thinkwithgoogle.com/intl/en-145/success-stories/global-case-studies/booking-makes-last-minute-travel-easier-mobile/">Think With Google</a> blog. I handled the entire production from initial bid and preproduction, through production and post, to final delivery, collaborating closely with the client and our crew. We filmed in Amsterdam, working with local talent and fixers. Directed by '.insertLink('anne').'.',
 						  'bodyimages'=>array(
-						  	array('filename'=>'1_thumb.png', 'caption'=>'Caption'),
-						  	array('filename'=>'2_thumb.png', 'caption'=>'Caption')
+						  	array('filename'=>'booking.com-1.jpg', 'caption'=>'The canal houses of Amsterdam'),
+						  	array('filename'=>'booking.com-2.jpg', 'caption'=>'Caption'),
+						  	array('filename'=>'booking.com-3.jpg', 'caption'=>'Caption'),
+						  	array('filename'=>'booking.com-4.jpg', 'caption'=>'Caption'),
+						  	array('filename'=>'booking.com-5.jpg', 'caption'=>'Caption'),
+						  	array('filename'=>'booking.com-6.jpg', 'caption'=>'Caption'),
+						  	array('filename'=>'booking.com-7.jpg', 'caption'=>'Caption'),
+						  	array('filename'=>'booking.com-8.jpg', 'caption'=>'Caption'),
+						  	array('filename'=>'booking.com-9.jpg', 'caption'=>'Caption')
 						  ),
-						  'vimeoid'=>''),
+						  'vimeoid'=>'379919676'),
 
-	'storyweaver' => array('title'=>'Storyweaver','description'=>'Branded Content, DP','filter_groups'=>'camerawork','thumbnail'=>'5_thumb.png',
+	'storyweaver' => array('title'=>'Storyweaver','description'=>'Branded Content, DP','filter_groups'=>'camerawork','thumbnail'=>'storyweaver-thumb1.jpg',
 						  'client'=>'Google','roles'=>'Director of Photography',
 						  'bodytext'=>'Storyweaver is an open platform for the translation of children’s books. Anyone can upload a story, with the text separated from the illustrations, and it can be translated by anyone from around the world. Research shows that children do better across a range of topics if, when they first learn to read, they can read in their mother tongue - the language they hear spoken by their family at home. This platform enables children’s books to be translated into languages and dialects that are spoken by so few people that publishers often aren’t able to reach them.<br /><br />We traveled to Bengaluru, India to meet the Pratham books and Storyweaver team, then continued to a rural village called Birbhum, in the West Bengal region near Kolkata, where a local community center is serving as a preschool for young children in a rural area. Here they can first learn to read in their local dialect, before continuing on to their formal schools where they learn in Hindi and English.<br /><br />I was the Director of Photography. Produced by '.insertLink('cassandra').' at '.insertLink('lonelyleap').', and directed by '.insertLink('anne').' and '.insertLink('bill').'.',
 						  'bodyimages'=>array(
