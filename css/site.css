@@ -2977,6 +2977,9 @@ blockquote {
     margin-bottom: 33px;
     font-family: Montserrat, sans-serif;
     font-size: 12px;
+
+    /* Addition: */
+    white-space: nowrap;
 }
 
 .photo-page-title {
@@ -3057,6 +3060,7 @@ blockquote {
 
 .description-text {
     margin-bottom: 23px;
+    padding-right: 30px;
 }
 
 .div-block {
