@@ -3,14 +3,14 @@
 	$delay = 0;
 	foreach ($portfolio as $slug => $item) {
 	?>
-		<div class="w-dyn-item w-col w-col-4 wow fadeIn" data-wow-offset="50" data-wow-delay="<?php echo $delay; ?>ms">
+		<div class="w-dyn-item w-col w-col-4 wow fadeIn" data-wow-offset="0" data-wow-delay="<?php echo $delay; ?>ms">
 			<a href="portfolio/<?php echo $slug; ?>" class="photo-link-block fade-in w-inline-block">
 				<div style="background-image:url('images/<?php echo $item['thumbnail']; ?>'); background-color: lightblue;" class="div-block"></div>
 				<div class="title"><?php echo $item['title']; ?></div>
 			</a>
 		</div>								
 	<?php
-	$delay = $delay + 100;
+	$delay = $delay + 50;
 	}
 	?>
 </div>
