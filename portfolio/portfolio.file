@@ -92,7 +92,7 @@ $portfolio = array(
 						  	array('filename'=>'1_thumb.png', 'caption'=>'Caption'),
 						  	array('filename'=>'2_thumb.png', 'caption'=>'Caption')
 						  ),
-						  'vimeoid'=>''),	
+						  'vimeoid'=>'380540707'),	
 
 	'king-of-the-night' => array('title'=>'King of the Night','description'=>'Case Study Film, DP','filter_groups'=>'producing','thumbnail'=>'',
 						  'client'=>'Lonelyleap Original','roles'=>'Producer',
@@ -146,7 +146,7 @@ $portfolio = array(
 						  	array('filename'=>'1_thumb.png', 'caption'=>'Caption'),
 						  	array('filename'=>'2_thumb.png', 'caption'=>'Caption')
 						  ),
-						  'vimeoid'=>''),
+						  'vimeoid'=>'380540825'),
 
 	'tumi-kathryn-minshew' => array('title'=>'Kathryn Minshew x Tumi','description'=>'Case Study Film, Producer','filter_groups'=>'producing','thumbnail'=>'',
 						  'client'=>'Tumi','roles'=>'Producer',
@@ -155,7 +155,7 @@ $portfolio = array(
 						  	array('filename'=>'1_thumb.png', 'caption'=>'Caption'),
 						  	array('filename'=>'2_thumb.png', 'caption'=>'Caption')
 						  ),
-						  'vimeoid'=>''),
+						  'vimeoid'=>'380540861'),
 
 	'goodwill' => array('title'=>'Goodwill','description'=>'Case Study Film, Producer','filter_groups'=>'producing','thumbnail'=>'',
 						  'client'=>'Tumi','roles'=>'Producer',
