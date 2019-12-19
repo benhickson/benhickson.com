@@ -58,7 +58,7 @@ $portfolio = array(
 						  ),
 						  'vimeoid'=>'375158643'),
 
-	'paragon-honda' => array('title'=>'Paragon Honda','description'=>'Case Study Film, DP','filter_groups'=>'camerawork','thumbnail'=>'6_thumb.png',
+	'paragon-honda' => array('title'=>'Paragon Honda','description'=>'Case Study Film, DP','filter_groups'=>'camerawork','thumbnail'=>'',
 						  'client'=>'Google','roles'=>'Director of Photography',
 						  'bodytext'=>'Lorem Ipsum Lorem lorem.',
 						  'bodyimages'=>array(
@@ -67,34 +67,25 @@ $portfolio = array(
 						  ),
 						  'vimeoid'=>'379925496'),
 
-	'ax-connect' => array('title'=>'AX Connect','description'=>'Moodfilm, DP and Editor','filter_groups'=>'camerawork filmpost','thumbnail'=>'1_thumb.png',
+	'ax-connect' => array('title'=>'AX Connect','description'=>'Moodfilm, DP and Editor','filter_groups'=>'camerawork filmpost','thumbnail'=>'',
 						  'client'=>'American Express Global Business Travel','roles'=>'Director of Photography, Editor',
 						  'bodytext'=>'Lorem Ipsum Lorem lorem.',
 						  'bodyimages'=>array(
 						  	array('filename'=>'1_thumb.png', 'caption'=>'Caption'),
 						  	array('filename'=>'2_thumb.png', 'caption'=>'Caption')
 						  ),
-						  'vimeoid'=>''),
+						  'vimeoid'=>'380328764'),
 
-	'youtube-bts' => array('title'=>'YouTube Behind the Scenes','description'=>'Branded Content, DP','filter_groups'=>'camerawork','thumbnail'=>'2_thumb.png',
-						  'client'=>'Google / YouTube','roles'=>'Camera Operator',
-						  'bodytext'=>'Lorem Ipsum Lorem lorem.',
-						  'bodyimages'=>array(
-						  	array('filename'=>'1_thumb.png', 'caption'=>'Caption'),
-						  	array('filename'=>'2_thumb.png', 'caption'=>'Caption')
-						  ),
-						  'vimeoid'=>''),
-
-	'ascendance' => array('title'=>'Ascendance','description'=>'Case Study Film, DP','filter_groups'=>'producing','thumbnail'=>'3_thumb.png',
+	'ascendance' => array('title'=>'Ascendance','description'=>'Case Study Film, DP','filter_groups'=>'producing','thumbnail'=>'',
 						  'client'=>'Google','roles'=>'Producer',
 						  'bodytext'=>'Lorem Ipsum Lorem lorem.',
 						  'bodyimages'=>array(
 						  	array('filename'=>'1_thumb.png', 'caption'=>'Caption'),
 						  	array('filename'=>'2_thumb.png', 'caption'=>'Caption')
 						  ),
-						  'vimeoid'=>''),
+						  'vimeoid'=>'380329429'),
 
-	'iwc' => array('title'=>'Carmelo Anthony and IWC','description'=>'Case Study Film, DP','filter_groups'=>'producing','thumbnail'=>'3_thumb.png',
+	'iwc' => array('title'=>'Carmelo Anthony and IWC','description'=>'Case Study Film, DP','filter_groups'=>'producing','thumbnail'=>'',
 						  'client'=>'IWC Schaffhausen','roles'=>'Producer',
 						  'bodytext'=>'Lorem Ipsum Lorem lorem.',
 						  'bodyimages'=>array(
@@ -103,47 +94,101 @@ $portfolio = array(
 						  ),
 						  'vimeoid'=>''),	
 
-	'king-of-the-night' => array('title'=>'King of the Night','description'=>'Case Study Film, DP','filter_groups'=>'producing','thumbnail'=>'3_thumb.png',
+	'king-of-the-night' => array('title'=>'King of the Night','description'=>'Case Study Film, DP','filter_groups'=>'producing','thumbnail'=>'',
 						  'client'=>'Lonelyleap Original','roles'=>'Producer',
 						  'bodytext'=>'Lorem Ipsum Lorem lorem.',
 						  'bodyimages'=>array(
 						  	array('filename'=>'1_thumb.png', 'caption'=>'Caption'),
 						  	array('filename'=>'2_thumb.png', 'caption'=>'Caption')
 						  ),
-						  'vimeoid'=>''),		
+						  'vimeoid'=>'380530985'),		
 
-	'maxxx-pleasure' => array('title'=>'Maxxx','description'=>'Case Study Film, DP','filter_groups'=>'producing','thumbnail'=>'3_thumb.png',
+	'maxxx-pleasure' => array('title'=>'Maxxx','description'=>'Case Study Film, DP','filter_groups'=>'producing','thumbnail'=>'',
 						  'client'=>'Lonelyleap Original','roles'=>'Producer',
 						  'bodytext'=>'Lorem Ipsum Lorem lorem.',
 						  'bodyimages'=>array(
 						  	array('filename'=>'1_thumb.png', 'caption'=>'Caption'),
 						  	array('filename'=>'2_thumb.png', 'caption'=>'Caption')
 						  ),
-						  'vimeoid'=>''),
+						  'vimeoid'=>'380529626'),
 
-	'david-dodge' => array('title'=>'David Dodge','description'=>'Case Study Film, DP','filter_groups'=>'producing','thumbnail'=>'3_thumb.png',
+	'david-dodge' => array('title'=>'David Dodge','description'=>'Case Study Film, DP','filter_groups'=>'producing','thumbnail'=>'',
 						  'client'=>'Google','roles'=>'Producer',
 						  'bodytext'=>'Lorem Ipsum Lorem lorem.',
 						  'bodyimages'=>array(
 						  	array('filename'=>'1_thumb.png', 'caption'=>'Caption'),
 						  	array('filename'=>'2_thumb.png', 'caption'=>'Caption')
 						  ),
-						  'vimeoid'=>''),
+						  'vimeoid'=>'380329692'),
 
-	'cfda' => array('title'=>'CFDA Eco Fashion Challenge','description'=>'Case Study Film, DP','filter_groups'=>'producing','thumbnail'=>'3_thumb.png',
+	'cfda' => array('title'=>'CFDA Eco Fashion Challenge','description'=>'Case Study Film, DP','filter_groups'=>'producing','thumbnail'=>'',
 						  'client'=>'CFDA: Council of Fashion Designers of America','roles'=>'Producer',
 						  'bodytext'=>'Lorem Ipsum Lorem lorem.',
 						  'bodyimages'=>array(
 						  	array('filename'=>'1_thumb.png', 'caption'=>'Caption'),
 						  	array('filename'=>'2_thumb.png', 'caption'=>'Caption')
 						  ),
-						  'vimeoid'=>'')
+						  'vimeoid'=>''),
+
+	'johnnie-walker' => array('title'=>'Johnnie Walker x Tumi','description'=>'Case Study Film, Producer','filter_groups'=>'producing','thumbnail'=>'',
+						  'client'=>'Tumi','roles'=>'Producer',
+						  'bodytext'=>'Lorem Ipsum Lorem lorem.',
+						  'bodyimages'=>array(
+						  	array('filename'=>'1_thumb.png', 'caption'=>'Caption'),
+						  	array('filename'=>'2_thumb.png', 'caption'=>'Caption')
+						  ),
+						  'vimeoid'=>'380540803'),
+
+	'opening-ceremony-bang-olufsen' => array('title'=>'BEO Play by Bang & Olufsen','description'=>'Case Study Film, Producer','filter_groups'=>'producing','thumbnail'=>'',
+						  'client'=>'Opening Ceremony','roles'=>'Producer',
+						  'bodytext'=>'Lorem Ipsum Lorem lorem.',
+						  'bodyimages'=>array(
+						  	array('filename'=>'1_thumb.png', 'caption'=>'Caption'),
+						  	array('filename'=>'2_thumb.png', 'caption'=>'Caption')
+						  ),
+						  'vimeoid'=>''),
+
+	'tumi-kathryn-minshew' => array('title'=>'Kathryn Minshew x Tumi','description'=>'Case Study Film, Producer','filter_groups'=>'producing','thumbnail'=>'',
+						  'client'=>'Tumi','roles'=>'Producer',
+						  'bodytext'=>'Lorem Ipsum Lorem lorem.',
+						  'bodyimages'=>array(
+						  	array('filename'=>'1_thumb.png', 'caption'=>'Caption'),
+						  	array('filename'=>'2_thumb.png', 'caption'=>'Caption')
+						  ),
+						  'vimeoid'=>''),
+
+	'goodwill' => array('title'=>'Goodwill','description'=>'Case Study Film, Producer','filter_groups'=>'producing','thumbnail'=>'',
+						  'client'=>'Tumi','roles'=>'Producer',
+						  'bodytext'=>'Lorem Ipsum Lorem lorem.',
+						  'bodyimages'=>array(
+						  	array('filename'=>'1_thumb.png', 'caption'=>'Caption'),
+						  	array('filename'=>'2_thumb.png', 'caption'=>'Caption')
+						  ),
+						  'vimeoid'=>'380329128'),
+
+	'cs-4h' => array('title'=>'CS Education - 4-H','description'=>'Case Study Film, Director of Photography','filter_groups'=>'producing','thumbnail'=>'',
+						  'client'=>'Google','roles'=>'Producer',
+						  'bodytext'=>'Lorem Ipsum Lorem lorem.',
+						  'bodyimages'=>array(
+						  	array('filename'=>'1_thumb.png', 'caption'=>'Caption'),
+						  	array('filename'=>'2_thumb.png', 'caption'=>'Caption')
+						  ),
+						  'vimeoid'=>'380522284'),
+
+	'tumi-dave-altarescu' => array('title'=>'Dave Altarescu x Tumi','description'=>'Case Study Film, Producer','filter_groups'=>'producing','thumbnail'=>'',
+						  'client'=>'Tumi','roles'=>'Producer',
+						  'bodytext'=>'Lorem Ipsum Lorem lorem.',
+						  'bodyimages'=>array(
+						  	array('filename'=>'1_thumb.png', 'caption'=>'Caption'),
+						  	array('filename'=>'2_thumb.png', 'caption'=>'Caption')
+						  ),
+						  'vimeoid'=>'380540908')
 
 );
 
 $portfolio_hidden = array(
 
-	'otto' => array('title'=>'Adwords: Otto','description'=>'Case Study Film, DP','filter_groups'=>'directing','thumbnail'=>'4_thumb.png',
+	'otto' => array('title'=>'Adwords: Otto','description'=>'Case Study Film, DP','filter_groups'=>'directing','thumbnail'=>'',
 						  'client'=>'Google','roles'=>'Director',
 						  'bodytext'=>'Lorem Ipsum Lorem lorem.',
 						  'bodyimages'=>array(
@@ -152,7 +197,7 @@ $portfolio_hidden = array(
 						  ),
 						  'vimeoid'=>''),
 
-	'stock-archive' => array('title'=>'Stock Archive','description'=>'Case Study Film, DP','filter_groups'=>'programming filmpost','thumbnail'=>'3_thumb.png',
+	'stock-archive' => array('title'=>'Stock Archive','description'=>'Case Study Film, DP','filter_groups'=>'programming filmpost','thumbnail'=>'',
 						  'client'=>'Google','roles'=>'Producer',
 						  'bodytext'=>'Lorem Ipsum Lorem lorem.',
 						  'bodyimages'=>array(
@@ -161,7 +206,16 @@ $portfolio_hidden = array(
 						  ),
 						  'vimeoid'=>''),
 
-	'image-tagger' => array('title'=>'Magic Image Tagger','description'=>'Case Study Film, DP','filter_groups'=>'programming filmpost','thumbnail'=>'3_thumb.png',
+	'youtube-bts' => array('title'=>'YouTube Behind the Scenes','description'=>'Branded Content, DP','filter_groups'=>'camerawork','thumbnail'=>'',
+						  'client'=>'Google / YouTube','roles'=>'Camera Operator',
+						  'bodytext'=>'Lorem Ipsum Lorem lorem.',
+						  'bodyimages'=>array(
+						  	array('filename'=>'1_thumb.png', 'caption'=>'Caption'),
+						  	array('filename'=>'2_thumb.png', 'caption'=>'Caption')
+						  ),
+						  'vimeoid'=>''),
+
+	'image-tagger' => array('title'=>'Magic Image Tagger','description'=>'Case Study Film, DP','filter_groups'=>'programming filmpost','thumbnail'=>'',
 						  'client'=>'Google','roles'=>'Producer',
 						  'bodytext'=>'Lorem Ipsum Lorem lorem.',
 						  'bodyimages'=>array(
@@ -170,7 +224,7 @@ $portfolio_hidden = array(
 						  ),
 						  'vimeoid'=>''),	
 
-	'print-frameworks' => array('title'=>'Web Printing Frameworks','description'=>'Case Study Film, DP','filter_groups'=>'programming','thumbnail'=>'3_thumb.png',
+	'print-frameworks' => array('title'=>'Web Printing Frameworks','description'=>'Case Study Film, DP','filter_groups'=>'programming','thumbnail'=>'',
 						  'client'=>'Google','roles'=>'Producer',
 						  'bodytext'=>'Lorem Ipsum Lorem lorem.',
 						  'bodyimages'=>array(
@@ -179,7 +233,7 @@ $portfolio_hidden = array(
 						  ),
 						  'vimeoid'=>''),
 
-	'centralize' => array('title'=>'Centralize','description'=>'Case Study Film, DP','filter_groups'=>'programming','thumbnail'=>'3_thumb.png',
+	'centralize' => array('title'=>'Centralize','description'=>'Case Study Film, DP','filter_groups'=>'programming','thumbnail'=>'',
 						  'client'=>'Google','roles'=>'Producer',
 						  'bodytext'=>'Lorem Ipsum Lorem lorem.',
 						  'bodyimages'=>array(
@@ -188,7 +242,7 @@ $portfolio_hidden = array(
 						  ),
 						  'vimeoid'=>''),	
 
-	'bp-olympics' => array('title'=>'BP Olympics','description'=>'Case Study Film, DP','filter_groups'=>'producing','thumbnail'=>'3_thumb.png',
+	'bp-olympics' => array('title'=>'BP Olympics','description'=>'Case Study Film, DP','filter_groups'=>'producing','thumbnail'=>'',
 						  'client'=>'Google','roles'=>'Producer',
 						  'bodytext'=>'Lorem Ipsum Lorem lorem.',
 						  'bodyimages'=>array(
@@ -197,7 +251,7 @@ $portfolio_hidden = array(
 						  ),
 						  'vimeoid'=>''),
 
-	'the-runner' => array('title'=>'The Runner','description'=>'Moodfilm, DP and Editor','filter_groups'=>'camerawork filmpost','thumbnail'=>'1_thumb.png',
+	'the-runner' => array('title'=>'The Runner','description'=>'Moodfilm, DP and Editor','filter_groups'=>'camerawork filmpost','thumbnail'=>'',
 						  'client'=>'Independent','roles'=>'Director of Photography, Editor',
 						  'bodytext'=>'A collaboration between myself and '.insertLink('henry').', the film explores the phsychological space that a runner shares with their own shadow. Starring '.insertLink('jody').'.',
 						  'bodyimages'=>array(

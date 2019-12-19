@@ -2494,7 +2494,7 @@ blockquote {
 .fixed-image-section {
     padding-top: 104px;
     padding-bottom: 104px;
-    background-image: url("/wf/images/example-bg.png");
+    /*background-image: url("/wf/images/example-bg.png");*/
     background-position: 50% 50%;
     background-size: 125px;
     background-attachment: fixed;
@@ -2888,7 +2888,7 @@ blockquote {
 .photo-block {
     height: 272px;
     margin-bottom: 10px;
-    background-image: url("/wf/images/example-bg.png");
+    /*background-image: url("/wf/images/example-bg.png");*/
     background-position: 50% 50%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -3065,7 +3065,7 @@ blockquote {
 
 .div-block {
     padding-top: 56.25%;
-    background-image: url("/wf/images/example-bg.png");
+    /*background-image: url("/wf/images/example-bg.png");*/
     background-position: 50% 50%;
     background-size: cover;
     background-repeat: no-repeat;
