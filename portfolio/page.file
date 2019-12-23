@@ -12,13 +12,13 @@
 					<div class="w-col w-col-8">
 						<?php if ($project['vimeoid'] != '') { ?>						
 						<div style="padding-top:56.25%; margin-bottom: 35px;" class="w-video w-embed">
-							<iframe class="w-richtext-align-fullwidth" src="https://player.vimeo.com/video/<?php echo $project['vimeoid'] ?>?app_id=122963&amp;wmode=opaque" frameborder="0" allow="autoplay; fullscreen" allowfullscreen="" title="Vimeo: <?php echo $project['title']; ?>"></iframe>
+							<iframe class="w-richtext-align-fullwidth wow fadeIn" data-wow-offset="50" src="https://player.vimeo.com/video/<?php echo $project['vimeoid'] ?>?app_id=122963&amp;wmode=opaque" frameborder="0" allow="autoplay; fullscreen" allowfullscreen="" title="Vimeo: <?php echo $project['title']; ?>"></iframe>
 						</div>
 						<?php } ?>						
 						<div class="w-richtext">
 							<?php foreach ($project['bodyimages'] as $image) {
 								?>
-							<figure data-rt-type="image" data-rt-align="fullwidth" data-rt-max-width="100" class="w-richtext-align-fullwidth" data-rt-max-height="56.25" style="max-width: 100%;">
+							<figure data-rt-type="image" data-rt-align="fullwidth" data-rt-max-width="100" class="w-richtext-align-fullwidth wow fadeIn" data-wow-offset="50" data-rt-max-height="56.25" style="max-width: 100%;">
 								<div><img src="images/<?php echo $image['filename']; ?>"></div>
 								<figcaption><?php echo $image['caption']; ?></figcaption>
 							</figure>
