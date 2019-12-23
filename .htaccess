@@ -6,6 +6,9 @@ RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^portfolio/(.*)?$ portfolio/?project=$1 [L]
 
+# for favicons
+RewriteRule ^(favicon.ico|browserconfig.xml|manifest.json|safari-pinned-tab.svg|(android-chrome|favicon|mstile)-[0-9]+x[0-9]+.png|apple-touch-icon(-precompressed.png|-[0-9]+x[0-9]+.png|.png)|manifest.json)$ /favicons/$1 [L]
+
 <FilesMatch "\.(htaccess|file)$">
 Order Allow,Deny
 Deny from all
