@@ -40,3 +40,30 @@
 				</div>
 			</div>
 		</div>
+
+		<script type="text/javascript">
+
+		// listening to left and right arrow keys to move between portfolio pages
+
+		document.addEventListener('keydown', function(e) {
+		    switch(e.which) {
+		        case 37: // left
+		        	window.location.href = 'portfolio/<?php echo $project['prev']; ?>';
+		        break;
+
+		        case 39: // right
+		        	window.location.href = 'portfolio/<?php echo $project['next']; ?>';
+		        break;
+
+		        // case 38: // up
+		        // break;
+
+		        // case 40: // down
+		        // break;
+
+		        default: return; // exit this handler for all other keys
+		    }
+		    e.preventDefault(); // prevent the default action (scroll / move caret)
+		});
+
+		</script>
