@@ -1,8 +1,10 @@
 <?php
 
-$pageid = 0; // preventing it from not being set, but otherwise not using yet
+$pageid = 0; // preventing it from not being set, but otherwise not using this variable yet
 
 require 'portfolio.file';
+
+// if there is a project requested that exists
 if (isset($_GET['project']) && array_key_exists($_GET['project'], $portfolio)) {
 
 	// set the project variable
@@ -13,7 +15,7 @@ if (isset($_GET['project']) && array_key_exists($_GET['project'], $portfolio)) {
 
 } else {
 
-	// redirect to the homepage
+	// redirect to the homepage, which already lists the portfolio, so the user can select another
 	header('Location: ..');
 	
 }
