@@ -2,7 +2,7 @@
 		<div class="section">
 			<div class="w-container">
 				<div class="w-row">
-					<div class="w-col w-col-6"><img src="/wf/images/me.jpg" alt="" class="about-photo"/></div>
+					<div class="w-col w-col-6"><img src="/wf/images/me.jpg" alt="" class="about-photo wow fadeIn"/></div>
 					<div class="w-col w-col-6">
 						<div class="w-richtext">
 							<h2>I&#x27;m a filmmaker, web developer, and a human being.</h2>
