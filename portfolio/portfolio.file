@@ -128,7 +128,7 @@ $portfolio = array(
 						  	array('filename'=>'1_thumb.png', 'caption'=>'Caption'),
 						  	array('filename'=>'2_thumb.png', 'caption'=>'Caption')
 						  ),
-						  'vimeoid'=>''),
+						  'vimeoid'=>'381668191'),
 
 	'johnnie-walker' => array('title'=>'Johnnie Walker x Tumi','description'=>'Case Study Film, Producer','filter_groups'=>'producing','thumbnail'=>'',
 						  'client'=>'Tumi','roles'=>'Producer',
@@ -182,7 +182,16 @@ $portfolio = array(
 						  	array('filename'=>'1_thumb.png', 'caption'=>'Caption'),
 						  	array('filename'=>'2_thumb.png', 'caption'=>'Caption')
 						  ),
-						  'vimeoid'=>'380540908')
+						  'vimeoid'=>'380540908'),
+
+	'gip-global-infrastructure-partners' => array('title'=>'Global Infrastructure Partners','description'=>'Case Study Film, Producer','filter_groups'=>'producing','thumbnail'=>'',
+						  'client'=>'Global Infrastructure Partners','roles'=>'Producer',
+						  'bodytext'=>'Lorem Ipsum Lorem lorem.',
+						  'bodyimages'=>array(
+						  	array('filename'=>'1_thumb.png', 'caption'=>'Caption'),
+						  	array('filename'=>'2_thumb.png', 'caption'=>'Caption')
+						  ),
+						  'vimeoid'=>'381668593')
 
 );
 
