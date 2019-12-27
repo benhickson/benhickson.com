@@ -13,7 +13,9 @@ $links = array(
 	'nate' => array('name'=>'Nathaniel Vidal','website'=>'https://nathanielvidal.com/'),
 	'maxxx' => array('name'=>'Maxxx Pleasure','website'=>'https://www.instagram.com/mr.mpleasure/'),
 	'bill' => array('name'=>'Bill Kirstein','website'=>'https://www.billkirstein.com/'),
-	'cassandra' => array('name'=>'Cassandra Evanisko','website'=>'https://www.instagram.com/cevanisko/')
+	'cassandra' => array('name'=>'Cassandra Evanisko','website'=>'https://www.instagram.com/cevanisko/'),
+	'molly' => array('name'=>'Molly Brass','website'=>'https://www.imdb.com/name/nm9814596/'),
+	'rachel' => array('name'=>'Rachel Weinberg','website'=>'https://www.instagram.com/raquellita/')
 );  
 
 function insertLink($shortname){
@@ -60,7 +62,7 @@ $portfolio = array(
 
 	'paragon-honda' => array('title'=>'Paragon Honda','description'=>'Case Study Film, DP','filter_groups'=>'camerawork','thumbnail'=>'',
 						  'client'=>'Google','roles'=>'Director of Photography',
-						  'bodytext'=>'Lorem Ipsum Lorem lorem.',
+						  'bodytext'=>'Google\'s Auto Marketing team commissioned a case study film on a successful customer of theirs: Paragon Honda. Paragon Honda is the most successful Honda dealership in the United States.<br /><br />I was Director of Photography, filming across two days around NYC.<br /><br />Directed by '.insertLink('molly').' and produced by '.insertLink('rachel').' at '.insertLink('lonelyleap').'.',
 						  'bodyimages'=>array(
 						  	array('filename'=>'1_thumb.png', 'caption'=>'Caption'),
 						  	array('filename'=>'2_thumb.png', 'caption'=>'Caption')
