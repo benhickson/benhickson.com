@@ -17,16 +17,16 @@
 	</head>
 	<body>
 		<div data-collapse="medium" data-animation="default" data-duration="400" class="navigation-bar w-nav">
-			<div class="w-container">
+			<div id="header-container" class="w-container">
 				<a href="" class="brand-link w-nav-brand">
 					<h1 class="brand-text">Ben Hickson</h1>
 				</a>
-				<nav role="navigation" class="navigation-menu w-nav-menu">
+				<nav id="navbar" role="navigation" class="navigation-menu w-nav-menu">
 					<?php 
 					$navlinks = array(
 						array('id'=>1,'href'=>'','text'=>'Home'),
 						// array('id'=>2,'href'=>'blog','text'=>'Blog'), 			// Blog disabled
-						array('id'=>3,'href'=>'about','text'=>'About')
+						array('id'=>3,'href'=>'about','text'=>'About / Contact')
 					);
 					foreach ($navlinks as $link) {
 					?>
@@ -37,8 +37,49 @@
 					}
 					?>
 				</nav>
-				<div class="hamburger-button w-nav-button">
+				<div id="nav-hamburger" class="hamburger-button w-nav-button" onclick="toggleNav();">
 					<div class="w-icon-nav-menu"></div>
 				</div>
+				<div id="nav-overlay" class="w-nav-overlay" data-wf-ignore="" style="display: block; height: 100vh;"></div>
 			</div>
 		</div>
+		<script type="text/javascript">
+
+			// javascript for handling the navbar hamburger menu stuff
+
+			function toggleNav(forceClose = false){
+				console.log('toggled',forceClose);
+				// grab the relevant elements
+				var navHamburger = document.getElementById('nav-hamburger');
+				var navOverlay = document.getElementById('nav-overlay');
+				var headerContainer = document.getElementById('header-container');
+				var navbar = document.getElementById('navbar');
+
+				// check if currently open
+				if (forceClose || navHamburger.classList.contains('w--open')) {
+					navHamburger.classList.remove('w--open');
+					navbar.classList.remove('w--nav-menu-open');
+					navOverlay.style.display = 'none';
+					headerContainer.appendChild(navbar);
+				} else {
+					navHamburger.classList.add('w--open');
+					navbar.classList.add('w--nav-menu-open');
+					navOverlay.style.display = 'block';
+					navOverlay.appendChild(navbar);
+				}
+			}
+			function resetNavForLargeViewports(){
+				if (window.innerWidth > 991) { // arbitrary value from wf
+					toggleNav(true);
+				} 
+			}
+			window.onresize = resetNavForLargeViewports;
+		</script>
+		<style type="text/css">
+			/* Style for Navbar */
+			#nav-overlay #navbar a {
+			    display: block;
+			    color: white;
+			    line-height: 14vh;
+			    font-size: 3vh;			
+		</style>
