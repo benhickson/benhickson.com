@@ -40,7 +40,7 @@
 				<div id="nav-hamburger" class="hamburger-button w-nav-button" onclick="toggleNav();">
 					<div class="w-icon-nav-menu"></div>
 				</div>
-				<div id="nav-overlay" class="w-nav-overlay" data-wf-ignore="" style="display: block; height: 100vh;"></div>
+				<div id="nav-overlay" class="w-nav-overlay" data-wf-ignore="" style="display: none; height: 100vh;"></div>
 			</div>
 		</div>
 		<script type="text/javascript">
@@ -48,14 +48,13 @@
 			// javascript for handling the navbar hamburger menu stuff
 
 			function toggleNav(forceClose = false){
-				console.log('toggled',forceClose);
 				// grab the relevant elements
 				var navHamburger = document.getElementById('nav-hamburger');
 				var navOverlay = document.getElementById('nav-overlay');
 				var headerContainer = document.getElementById('header-container');
 				var navbar = document.getElementById('navbar');
 
-				// check if currently open
+				// check if currently open or if the "forceClose" flag was set
 				if (forceClose || navHamburger.classList.contains('w--open')) {
 					navHamburger.classList.remove('w--open');
 					navbar.classList.remove('w--nav-menu-open');
