@@ -11,7 +11,7 @@ $links = array(
 	'jason' => array('name'=>'J.M. Harper','website'=>'https://www.jmharper.com/'),
 	'nick' => array('name'=>'Nick Enriquez','website'=>'http://www.nenriquez.com'),
 	'nate' => array('name'=>'Nathaniel Vidal','website'=>'https://nathanielvidal.com/'),
-	'stevie' => array('name'=>'Stevie Rappa','website'=>'https://www.instagram.com/stevieria/')
+	'stevie' => array('name'=>'Stevie Rappa','website'=>'https://www.instagram.com/stevieria/'),
 	'maxxx' => array('name'=>'Maxxx Pleasure','website'=>'https://www.instagram.com/mr.mpleasure/'),
 	'bill' => array('name'=>'Bill Kirstein','website'=>'https://www.billkirstein.com/'),
 	'cassandra' => array('name'=>'Cassandra Evanisko','website'=>'https://www.instagram.com/cevanisko/'),
