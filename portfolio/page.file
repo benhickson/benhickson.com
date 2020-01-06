@@ -29,6 +29,30 @@
 					</div>
 				</div>
 			</div>
+			<style type="text/css">
+				.arrows{
+					display: block;
+				    position: fixed;
+				    top: 40%;
+				    color: black;
+				    font-size: 20px;
+				    padding: 15px;
+				    cursor: pointer;
+				}
+				@media not screen, (max-width: 830px) {
+					.arrows{
+						display: none;
+					}
+				}
+				.arrows.lni-chevron-left{
+					left: 0;
+				}
+				.arrows.lni-chevron-right{
+					right: 0;
+				}
+			</style>
+			<i class="arrows lni-chevron-left wow fadeIn" onclick="goPrev();"></i>
+			<i class="arrows lni-chevron-right wow fadeIn" onclick="goNext();"></i>
 			<div class="all-images w-container">
 				<h1 class="photo-page-title center">Portfolio</h1>
 				<div class="gallery-wrapper w-dyn-list">
@@ -43,16 +67,25 @@
 
 		<script type="text/javascript">
 
+		// functions for going left and right
+
+		function goPrev(){
+			window.location.href = 'portfolio/<?php echo $project['prev']; ?>';
+		}
+		function goNext(){
+			window.location.href = 'portfolio/<?php echo $project['next']; ?>';
+		}
+
 		// listening to left and right arrow keys to move between portfolio pages
 
 		document.addEventListener('keydown', function(e) {
 		    switch(e.which) {
 		        case 37: // left
-		        	window.location.href = 'portfolio/<?php echo $project['prev']; ?>';
+		        	goPrev();
 		        break;
 
 		        case 39: // right
-		        	window.location.href = 'portfolio/<?php echo $project['next']; ?>';
+		        	goNext();
 		        break;
 
 		        // case 38: // up
