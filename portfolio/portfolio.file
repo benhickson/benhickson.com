@@ -18,7 +18,8 @@ $links = array(
 	'molly' => array('name'=>'Molly Brass','website'=>'https://www.imdb.com/name/nm9814596/'),
 	'rachel' => array('name'=>'Rachel Weinberg','website'=>'https://www.instagram.com/raquellita/'),
 	'roger' => array('name'=>'Roger Moran','website'=>'https://pro.imdb.com/name/nm3845345/'),
-	'stephen' => array('name'=>'Stephen Tyler','website'=>'https://www.linkedin.com/in/stephen-tyler-ba47833b/')
+	'stephen' => array('name'=>'Stephen Tyler','website'=>'https://www.linkedin.com/in/stephen-tyler-ba47833b/'),
+	'davidsmith' => array('name'=>'David Walton Smith','website'=>'http://www.davidwaltonsmith.com/')
 );  
 
 function insertLink($shortname){
@@ -112,7 +113,7 @@ $portfolio = array(
 
 	'maxxx-pleasure' => array('title'=>'Maxxx','description'=>'Case Study Film, DP','filter_groups'=>'producing','thumbnail'=>'',
 						  'client'=>'Lonelyleap Original','roles'=>'Producer',
-						  'bodytext'=>'A character piece on Maxxx Pleasure, a multi-award-winning drag performer in NYC.<br /><br />An independent film from '.insertLink('lonelyleap').', I was the Director of Photography, working with co-producers and directors '.insertLink('stevie').' and '.insertLink('nate').'. I was Director of Photography.',
+						  'bodytext'=>'A character piece on Maxxx Pleasure, a multi-award-winning drag performer in NYC.<br /><br />An independent film from '.insertLink('lonelyleap').', I was the Director of Photography, working with co-producers and directors '.insertLink('stevie').' and '.insertLink('nate').'.',
 						  'bodyimages'=>array(
 						  	array('filename'=>'1_thumb.png', 'caption'=>'Caption'),
 						  	array('filename'=>'2_thumb.png', 'caption'=>'Caption')
@@ -130,7 +131,7 @@ $portfolio = array(
 
 	'cfda' => array('title'=>'CFDA Eco Fashion Challenge','description'=>'Case Study Film, DP','filter_groups'=>'producing','thumbnail'=>'',
 						  'client'=>'CFDA: Council of Fashion Designers of America','roles'=>'Producer',
-						  'bodytext'=>'Lorem Ipsum Lorem lorem.',
+						  'bodytext'=>'The CFDA holds a yearly award competition called the Eco Fashion Challenge, where new brands compete to push the boundaries of sustainability, in multivariate forms and mediums. This film gives in an insight into their process.<br /><br />I produced this film at '.insertLink('lonelyleap').' with director and cinematographer '.insertLink('davidsmith').'.',
 						  'bodyimages'=>array(
 						  	array('filename'=>'1_thumb.png', 'caption'=>'Caption'),
 						  	array('filename'=>'2_thumb.png', 'caption'=>'Caption')
@@ -139,7 +140,7 @@ $portfolio = array(
 
 	'johnnie-walker' => array('title'=>'Johnnie Walker x Tumi','description'=>'Case Study Film, Producer','filter_groups'=>'producing','thumbnail'=>'',
 						  'client'=>'Tumi','roles'=>'Producer',
-						  'bodytext'=>'Lorem Ipsum Lorem lorem.',
+						  'bodytext'=>'Luggage brand Tumi produced a limited-run suitcase as a promo/collaboration with Johnnie Walker whiskey. This is the promo film for that campaign.<br /><br />I produced this film at '.insertLink('lonelyleap').'. Directed by '.insertLink('nick').'.',
 						  'bodyimages'=>array(
 						  	array('filename'=>'1_thumb.png', 'caption'=>'Caption'),
 						  	array('filename'=>'2_thumb.png', 'caption'=>'Caption')
