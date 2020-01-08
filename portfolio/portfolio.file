@@ -19,7 +19,8 @@ $links = array(
 	'rachel' => array('name'=>'Rachel Weinberg','website'=>'https://www.instagram.com/raquellita/'),
 	'roger' => array('name'=>'Roger Moran','website'=>'https://pro.imdb.com/name/nm3845345/'),
 	'stephen' => array('name'=>'Stephen Tyler','website'=>'https://www.linkedin.com/in/stephen-tyler-ba47833b/'),
-	'davidsmith' => array('name'=>'David Walton Smith','website'=>'http://www.davidwaltonsmith.com/')
+	'davidsmith' => array('name'=>'David Walton Smith','website'=>'http://www.davidwaltonsmith.com/'),
+	'dustin' => array('name'=>'Dustin Lane','website'=>'https://www.dustin-lane.com/')
 );  
 
 function insertLink($shortname){
@@ -93,7 +94,7 @@ $portfolio = array(
 
 	'iwc' => array('title'=>'Carmelo Anthony and IWC','description'=>'','filter_groups'=>'producing','thumbnail'=>'',
 						  'client'=>'IWC Schaffhausen','roles'=>'Producer',
-						  'bodytext'=>'Swiss watchmakers IWC hired us to produce a moodfilm to announce their promotion deal with NBA star Carmelo Anthony.<br /><br/>I produced this at '.insertLink('lonelyleap').' with director '.insertLink('nick').'.',
+						  'bodytext'=>'Swiss watchmakers IWC hired us to produce a moodfilm to announce their promotion deal with NBA star Carmelo Anthony.<br /><br/>I produced this at '.insertLink('lonelyleap').' with director '.insertLink('nick').' and cinematographer '.insertLink('dustin').'.',
 						  'bodyimages'=>array(
 						  	array('filename'=>'1_thumb.png', 'caption'=>'Caption'),
 						  	array('filename'=>'2_thumb.png', 'caption'=>'Caption')
@@ -158,7 +159,7 @@ $portfolio = array(
 
 	'tumi-kathryn-minshew' => array('title'=>'Kathryn Minshew x Tumi','description'=>'Case Study Film, Producer','filter_groups'=>'producing','thumbnail'=>'',
 						  'client'=>'Tumi','roles'=>'Producer',
-						  'bodytext'=>'Lorem Ipsum Lorem lorem.',
+						  'bodytext'=>'Kathryn Minshew is an executive at job and mentorship website <i>The Muse</i>. Luggage brand Tumi commissioned us to produce a character and brand film featuring here.<br /><br />I produced this film at '.insertLink('lonelyleap').' alongside director, shooter, and editor '.insertLink('nick').'.',
 						  'bodyimages'=>array(
 						  	array('filename'=>'1_thumb.png', 'caption'=>'Caption'),
 						  	array('filename'=>'2_thumb.png', 'caption'=>'Caption')
@@ -185,7 +186,7 @@ $portfolio = array(
 
 	'tumi-dave-altarescu' => array('title'=>'Dave Altarescu x Tumi','description'=>'Case Study Film, Producer','filter_groups'=>'producing','thumbnail'=>'',
 						  'client'=>'Tumi','roles'=>'Producer',
-						  'bodytext'=>'Lorem Ipsum Lorem lorem.',
+						  'bodytext'=>'Dave Altarescu is a Spotify executive and with that job comes a lot of travelling. We profiled his nomadic lifestyle for luggage brand Tumi.<br /><br />I produced this film at '.insertLink('lonelyleap').' alongside director, shooter, and editor '.insertLink('nick').'.',
 						  'bodyimages'=>array(
 						  	array('filename'=>'1_thumb.png', 'caption'=>'Caption'),
 						  	array('filename'=>'2_thumb.png', 'caption'=>'Caption')
@@ -194,7 +195,7 @@ $portfolio = array(
 
 	'gip-global-infrastructure-partners' => array('title'=>'Global Infrastructure Partners','description'=>'Case Study Film, Producer','filter_groups'=>'producing','thumbnail'=>'',
 						  'client'=>'Global Infrastructure Partners','roles'=>'Producer',
-						  'bodytext'=>'Lorem Ipsum Lorem lorem.',
+						  'bodytext'=>'GIP is investment firm specialized in large industrial projects.<br /><br />Produced and Directed by '.insertLink('cassandra').' at '.insertLink('lonelyleap').', I was Director of Photography on this project.',
 						  'bodyimages'=>array(
 						  	array('filename'=>'1_thumb.png', 'caption'=>'Caption'),
 						  	array('filename'=>'2_thumb.png', 'caption'=>'Caption')
