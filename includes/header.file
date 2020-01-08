@@ -39,7 +39,7 @@
 					?>
 				</nav>
 				<div id="nav-hamburger" class="hamburger-button w-nav-button" onclick="toggleNav();">
-					<div class="w-icon-nav-menu"></div>
+					<i class="lni-menu"></i>
 				</div>
 				<div id="nav-overlay" class="w-nav-overlay" data-wf-ignore="" style="display: none; height: 100vh;"></div>
 			</div>
