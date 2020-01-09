@@ -20,7 +20,13 @@ $links = array(
 	'roger' => array('name'=>'Roger Moran','website'=>'https://pro.imdb.com/name/nm3845345/'),
 	'stephen' => array('name'=>'Stephen Tyler','website'=>'https://www.linkedin.com/in/stephen-tyler-ba47833b/'),
 	'davidsmith' => array('name'=>'David Walton Smith','website'=>'http://www.davidwaltonsmith.com/'),
-	'dustin' => array('name'=>'Dustin Lane','website'=>'https://www.dustin-lane.com/')
+	'dustin' => array('name'=>'Dustin Lane','website'=>'https://www.dustin-lane.com/'),
+	'tati' => array('name'=>'Tati Barrantes','website'=>'http://www.tatibarrantes.com/'),
+	'jeff' => array('name'=>'Jeff Taylor','website'=>'https://www.instagram.com/jefftaylr/'),
+	'letisha' => array('name'=>'Letisha Tate-Dunning','website'=>'https://www.letisha-tate-dunning.com/'),
+	'stephenroe' => array('name'=>'Stephen Roe','website'=>'http://www.stephen-roe.com/'),
+	'rob' => array('name'=>'Rob Colquhoun','website'=>'https://www.instagram.com/robcolquhoun/'),
+	'cat' => array('name'=>'Cat Koppel','website'=>'http://www.catkoppel.com/')
 );  
 
 function insertLink($shortname){
@@ -32,7 +38,7 @@ $portfolio = array(
 
 	'greenland' => array('title'=>'Greenland','description'=>'Branded Content, DP','filter_groups'=>'camerawork','thumbnail'=>'greenland-thumb1.jpg',
 						  'client'=>'Google','roles'=>'Camera Operator',
-						  'bodytext'=>'Google commissioned the '.insertLink('lonelyleap').' team to create a film to call attention to climate change globally. The film centers around '.insertLink('nikolaj').' (Jamie Lannister from <i>Game of Thrones</i>) trekking around small towns in southern Greenland with "The Trekker", Google\'s backpack-based panoramic Street View camera.<br /><br />I traveled from New York to Copenhagen, joined up with a crew of three Londoners and one Dane, and traveled via plane, boat, four-wheeler and helicopter to remote areas of Greenland.',
+						  'bodytext'=>'Google commissioned the '.insertLink('lonelyleap').' team to create a film to call attention to climate change globally. The film centers around '.insertLink('nikolaj').' (Jamie Lannister from <i>Game of Thrones</i>) trekking around small towns in southern Greenland with "The Trekker", Google\'s backpack-based panoramic Street View camera.<br /><br />I traveled from New York to Copenhagen, joined up with a crew of three Londoners and one Dane, and traveled via plane, boat, four-wheeler and helicopter to remote areas of Greenland.<br /><br />Truly a global effort, the project was led from NYC by '.insertLink('jason').', '.insertLink('molly').', '.insertLink('stephen').', and '.insertLink('stevie').'. On the ground, '.insertLink('letisha').' produced, '.insertLink('stephenroe').' was our DoP, '.insertLink('rob').' was our sound recordist, and '.insertLink('cat').' was our drone operator. I was a camera operator, and leveraged my experience as a producer to uniquely connect the New York and European teams.',
 						  'bodyimages'=>array(
 						  	array('filename'=>'greenland-1.jpg', 'caption'=>'Nikolaj Coster-Waldau'),
 						  	// array('filename'=>'2_thumb.png', 'caption'=>'Caption')
@@ -41,7 +47,7 @@ $portfolio = array(
 
 	'booking.com' => array('title'=>'Booking.com','description'=>'Case Study Film, DP','filter_groups'=>'producing','thumbnail'=>'booking.com-5-thumb.jpg',
 						  'client'=>'Google','roles'=>'Producer',
-						  'bodytext'=>'Working at '.insertLink('lonelyleap').', I produced a case study film for Google, highlighting a client-partner of theirs, Booking.com, for the <a target="_blank" href="https://www.thinkwithgoogle.com/intl/en-145/success-stories/global-case-studies/booking-makes-last-minute-travel-easier-mobile/">Think With Google</a> blog. I handled the entire production from initial bid and preproduction, through production and post, to final delivery, collaborating closely with the client and our crew. We filmed in Amsterdam, working with local talent and fixers. Directed by '.insertLink('anne').'.',
+						  'bodytext'=>'Working at '.insertLink('lonelyleap').', I produced a case study film for Google, highlighting a client-partner of theirs, Booking.com, for the <a target="_blank" href="https://www.thinkwithgoogle.com/intl/en-145/success-stories/global-case-studies/booking-makes-last-minute-travel-easier-mobile/">Think With Google</a> blog.<br /><br />We filmed in Amsterdam, working with local talent and fixers. Directed by '.insertLink('anne').' and shot by '.insertLink('jeff').' and '.insertLink('bill').'.',
 						  'bodyimages'=>array(
 						  	array('filename'=>'booking.com-1.jpg', 'caption'=>'The canal houses of Amsterdam'),
 						  	array('filename'=>'booking.com-2.jpg', 'caption'=>''),
@@ -69,8 +75,8 @@ $portfolio = array(
 						  'client'=>'Google','roles'=>'Director of Photography',
 						  'bodytext'=>'Google\'s Auto Marketing team commissioned a case study film on a successful customer of theirs: Paragon Honda. Paragon Honda is the most successful Honda dealership in the United States.<br /><br />I was Director of Photography, filming across two days around NYC.<br /><br />Directed by '.insertLink('molly').' and produced by '.insertLink('rachel').' at '.insertLink('lonelyleap').'.',
 						  'bodyimages'=>array(
-						  	array('filename'=>'1_thumb.png', 'caption'=>'Caption'),
-						  	array('filename'=>'2_thumb.png', 'caption'=>'Caption')
+						  	// array('filename'=>'1_thumb.png', 'caption'=>'Caption'),
+						  	// array('filename'=>'2_thumb.png', 'caption'=>'Caption')
 						  ),
 						  'vimeoid'=>'379925496'),
 
@@ -78,8 +84,8 @@ $portfolio = array(
 						  'client'=>'American Express Global Business Travel','roles'=>'Director of Photography, Editor',
 						  'bodytext'=>'American Express operates a corporate travel management program, and they commissioned this film to publicize the features of their new app.<br /><br />I produced this film at '.insertLink('lonelyleap').'. Directed by '.insertLink('nick').'.',
 						  'bodyimages'=>array(
-						  	array('filename'=>'1_thumb.png', 'caption'=>'Caption'),
-						  	array('filename'=>'2_thumb.png', 'caption'=>'Caption')
+						  	// array('filename'=>'1_thumb.png', 'caption'=>'Caption'),
+						  	// array('filename'=>'2_thumb.png', 'caption'=>'Caption')
 						  ),
 						  'vimeoid'=>'380328764'),
 
@@ -87,8 +93,8 @@ $portfolio = array(
 						  'client'=>'Google','roles'=>'Producer',
 						  'bodytext'=>'Ascendance is a dance studio in Doral, Florida, adjacent to Miami. Google commissioned a film on them to highlight their use of Adwords in reaching new clients, and the impact they are able to make on their community.<br /><br />I was a camera operator on this film. Directed by '.insertLink('anne').' and produced by '.insertLink('roger').' at '.insertLink('lonelyleap').'.',
 						  'bodyimages'=>array(
-						  	array('filename'=>'1_thumb.png', 'caption'=>'Caption'),
-						  	array('filename'=>'2_thumb.png', 'caption'=>'Caption')
+						  	// array('filename'=>'1_thumb.png', 'caption'=>'Caption'),
+						  	// array('filename'=>'2_thumb.png', 'caption'=>'Caption')
 						  ),
 						  'vimeoid'=>'380329429'),
 
@@ -96,8 +102,8 @@ $portfolio = array(
 						  'client'=>'IWC Schaffhausen','roles'=>'Producer',
 						  'bodytext'=>'Swiss watchmakers IWC hired us to produce a moodfilm to announce their promotion deal with NBA star Carmelo Anthony.<br /><br/>I produced this at '.insertLink('lonelyleap').' with director '.insertLink('nick').' and cinematographer '.insertLink('dustin').'.',
 						  'bodyimages'=>array(
-						  	array('filename'=>'1_thumb.png', 'caption'=>'Caption'),
-						  	array('filename'=>'2_thumb.png', 'caption'=>'Caption')
+						  	// array('filename'=>'1_thumb.png', 'caption'=>'Caption'),
+						  	// array('filename'=>'2_thumb.png', 'caption'=>'Caption')
 						  ),
 						  'vimeoid'=>'380540707'),	
 
@@ -116,8 +122,8 @@ $portfolio = array(
 						  'client'=>'Lonelyleap Original','roles'=>'Producer',
 						  'bodytext'=>'A character piece on Maxxx Pleasure, a multi-award-winning drag performer in NYC.<br /><br />An independent film from '.insertLink('lonelyleap').', I was the Director of Photography, working with co-producers and directors '.insertLink('stevie').' and '.insertLink('nate').'.',
 						  'bodyimages'=>array(
-						  	array('filename'=>'1_thumb.png', 'caption'=>'Caption'),
-						  	array('filename'=>'2_thumb.png', 'caption'=>'Caption')
+						  	// array('filename'=>'1_thumb.png', 'caption'=>'Caption'),
+						  	// array('filename'=>'2_thumb.png', 'caption'=>'Caption')
 						  ),
 						  'vimeoid'=>'380529626'),
 
@@ -125,8 +131,8 @@ $portfolio = array(
 						  'client'=>'Google','roles'=>'Producer',
 						  'bodytext'=>'Google\'s Auto Marketing team commissioned a case study film on David Dodge, an auto dealership in Pennsylvania, on their successful Adwords and marketing campaigns.<br /><br />I was Director of Photography, filming across two days around Chadds Ford, PA.<br /><br />Directed by '.insertLink('molly').' and produced by '.insertLink('rachel').' at '.insertLink('lonelyleap').'.',
 						  'bodyimages'=>array(
-						  	array('filename'=>'1_thumb.png', 'caption'=>'Caption'),
-						  	array('filename'=>'2_thumb.png', 'caption'=>'Caption')
+						  	// array('filename'=>'1_thumb.png', 'caption'=>'Caption'),
+						  	// array('filename'=>'2_thumb.png', 'caption'=>'Caption')
 						  ),
 						  'vimeoid'=>'380329692'),
 
@@ -134,8 +140,8 @@ $portfolio = array(
 						  'client'=>'CFDA: Council of Fashion Designers of America','roles'=>'Producer',
 						  'bodytext'=>'The CFDA holds a yearly award competition called the Eco Fashion Challenge, where new brands compete to push the boundaries of sustainability, in multivariate forms and mediums. This film gives in an insight into their process.<br /><br />I produced this film at '.insertLink('lonelyleap').' with director and cinematographer '.insertLink('davidsmith').'.',
 						  'bodyimages'=>array(
-						  	array('filename'=>'1_thumb.png', 'caption'=>'Caption'),
-						  	array('filename'=>'2_thumb.png', 'caption'=>'Caption')
+						  	// array('filename'=>'1_thumb.png', 'caption'=>'Caption'),
+						  	// array('filename'=>'2_thumb.png', 'caption'=>'Caption')
 						  ),
 						  'vimeoid'=>'381668191'),
 
@@ -143,17 +149,17 @@ $portfolio = array(
 						  'client'=>'Tumi','roles'=>'Producer',
 						  'bodytext'=>'Luggage brand Tumi produced a limited-run suitcase as a promo/collaboration with Johnnie Walker whiskey. This is the promo film for that campaign.<br /><br />I produced this film at '.insertLink('lonelyleap').'. Directed by '.insertLink('nick').'.',
 						  'bodyimages'=>array(
-						  	array('filename'=>'1_thumb.png', 'caption'=>'Caption'),
-						  	array('filename'=>'2_thumb.png', 'caption'=>'Caption')
+						  	// array('filename'=>'1_thumb.png', 'caption'=>'Caption'),
+						  	// array('filename'=>'2_thumb.png', 'caption'=>'Caption')
 						  ),
 						  'vimeoid'=>'380540803'),
 
 	'opening-ceremony-bang-olufsen' => array('title'=>'BEO Play by Bang & Olufsen','description'=>'Case Study Film, Producer','filter_groups'=>'producing','thumbnail'=>'',
 						  'client'=>'Opening Ceremony','roles'=>'Producer',
-						  'bodytext'=>'Lorem Ipsum Lorem lorem.',
+						  'bodytext'=>'A collaboration on all levels. Part music video, part experimental film, part product commercial... Opening Ceremony commissioned a video about their exclusive headphones from Bang & Olufsen, featuring musician Maluca Mala.<br /><br />I produced this project at '.insertLink('lonelyleap').' alongside director '.insertLink('tati').'.',
 						  'bodyimages'=>array(
-						  	array('filename'=>'1_thumb.png', 'caption'=>'Caption'),
-						  	array('filename'=>'2_thumb.png', 'caption'=>'Caption')
+						  	// array('filename'=>'', 'caption'=>''),
+						  	// array('filename'=>'', 'caption'=>'')
 						  ),
 						  'vimeoid'=>'380540825'),
 
@@ -161,26 +167,26 @@ $portfolio = array(
 						  'client'=>'Tumi','roles'=>'Producer',
 						  'bodytext'=>'Kathryn Minshew is an executive at job and mentorship website <i>The Muse</i>. Luggage brand Tumi commissioned us to produce a character and brand film featuring here.<br /><br />I produced this film at '.insertLink('lonelyleap').' alongside director, shooter, and editor '.insertLink('nick').'.',
 						  'bodyimages'=>array(
-						  	array('filename'=>'1_thumb.png', 'caption'=>'Caption'),
-						  	array('filename'=>'2_thumb.png', 'caption'=>'Caption')
+						  	// array('filename'=>'1_thumb.png', 'caption'=>'Caption'),
+						  	// array('filename'=>'2_thumb.png', 'caption'=>'Caption')
 						  ),
 						  'vimeoid'=>'380540861'),
 
 	'goodwill' => array('title'=>'Goodwill','description'=>'Case Study Film, Producer','filter_groups'=>'producing','thumbnail'=>'',
 						  'client'=>'Tumi','roles'=>'Producer',
-						  'bodytext'=>'Lorem Ipsum Lorem lorem.',
+						  'bodytext'=>'Goodwill, the discount & secondhand clothing and homegoods store, offers much more to the communities they serve than many are aware of. Their skills-development programs, especially in technology, have been very succesful. Google commissioned a film to share some stories from a program at the Goodwill headquarters in Tulsa, and to publicize their monetary support.<br /><br />I was a camera operator and drone operator on this project, alongside director of photography '.insertLink('bill').', with '.insertLink('anne').' directing and '.insertLink('stevie').' producing, at '.insertLink('lonelyleap').'.',
 						  'bodyimages'=>array(
-						  	array('filename'=>'1_thumb.png', 'caption'=>'Caption'),
-						  	array('filename'=>'2_thumb.png', 'caption'=>'Caption')
+						  	// array('filename'=>'1_thumb.png', 'caption'=>'Caption'),
+						  	// array('filename'=>'2_thumb.png', 'caption'=>'Caption')
 						  ),
 						  'vimeoid'=>'380329128'),
 
 	'cs-4h' => array('title'=>'CS Education - 4-H','description'=>'Case Study Film, Director of Photography','filter_groups'=>'producing','thumbnail'=>'',
 						  'client'=>'Google','roles'=>'Producer',
-						  'bodytext'=>'Lorem Ipsum Lorem lorem.',
+						  'bodytext'=>'The traditional 4-H programs around the country have modernized, and are now emphasizing programming skills in their youth programs. We made a film highlighting the program in Bruceton Mills, WV, and Google\'s support of the program.<br /><br />Directed and Produced by '.insertLink('cassandra').' at '.insertLink('lonelyleap').'. I was Director of Photography and Drone Operator.',
 						  'bodyimages'=>array(
-						  	array('filename'=>'1_thumb.png', 'caption'=>'Caption'),
-						  	array('filename'=>'2_thumb.png', 'caption'=>'Caption')
+						  	// array('filename'=>'1_thumb.png', 'caption'=>'Caption'),
+						  	// array('filename'=>'2_thumb.png', 'caption'=>'Caption')
 						  ),
 						  'vimeoid'=>'380522284'),
 
@@ -188,8 +194,8 @@ $portfolio = array(
 						  'client'=>'Tumi','roles'=>'Producer',
 						  'bodytext'=>'Dave Altarescu is a Spotify executive and with that job comes a lot of travelling. We profiled his nomadic lifestyle for luggage brand Tumi.<br /><br />I produced this film at '.insertLink('lonelyleap').' alongside director, shooter, and editor '.insertLink('nick').'.',
 						  'bodyimages'=>array(
-						  	array('filename'=>'1_thumb.png', 'caption'=>'Caption'),
-						  	array('filename'=>'2_thumb.png', 'caption'=>'Caption')
+						  	// array('filename'=>'1_thumb.png', 'caption'=>'Caption'),
+						  	// array('filename'=>'2_thumb.png', 'caption'=>'Caption')
 						  ),
 						  'vimeoid'=>'380540908'),
 
@@ -197,8 +203,8 @@ $portfolio = array(
 						  'client'=>'Global Infrastructure Partners','roles'=>'Producer',
 						  'bodytext'=>'GIP is investment firm specialized in large industrial projects.<br /><br />Produced and Directed by '.insertLink('cassandra').' at '.insertLink('lonelyleap').', I was Director of Photography on this project.',
 						  'bodyimages'=>array(
-						  	array('filename'=>'1_thumb.png', 'caption'=>'Caption'),
-						  	array('filename'=>'2_thumb.png', 'caption'=>'Caption')
+						  	// array('filename'=>'1_thumb.png', 'caption'=>'Caption'),
+						  	// array('filename'=>'2_thumb.png', 'caption'=>'Caption')
 						  ),
 						  'vimeoid'=>'381668593')
 
@@ -210,8 +216,8 @@ $portfolio_hidden = array(
 						  'client'=>'Google','roles'=>'Director',
 						  'bodytext'=>'Lorem Ipsum Lorem lorem.',
 						  'bodyimages'=>array(
-						  	array('filename'=>'1_thumb.png', 'caption'=>'Caption'),
-						  	array('filename'=>'2_thumb.png', 'caption'=>'Caption')
+						  	// array('filename'=>'1_thumb.png', 'caption'=>'Caption'),
+						  	// array('filename'=>'2_thumb.png', 'caption'=>'Caption')
 						  ),
 						  'vimeoid'=>''),
 
@@ -219,8 +225,8 @@ $portfolio_hidden = array(
 						  'client'=>'Google','roles'=>'Producer',
 						  'bodytext'=>'Lorem Ipsum Lorem lorem.',
 						  'bodyimages'=>array(
-						  	array('filename'=>'1_thumb.png', 'caption'=>'Caption'),
-						  	array('filename'=>'2_thumb.png', 'caption'=>'Caption')
+						  	// array('filename'=>'1_thumb.png', 'caption'=>'Caption'),
+						  	// array('filename'=>'2_thumb.png', 'caption'=>'Caption')
 						  ),
 						  'vimeoid'=>''),
 
@@ -228,8 +234,8 @@ $portfolio_hidden = array(
 						  'client'=>'Google / YouTube','roles'=>'Camera Operator',
 						  'bodytext'=>'Lorem Ipsum Lorem lorem.',
 						  'bodyimages'=>array(
-						  	array('filename'=>'1_thumb.png', 'caption'=>'Caption'),
-						  	array('filename'=>'2_thumb.png', 'caption'=>'Caption')
+						  	// array('filename'=>'1_thumb.png', 'caption'=>'Caption'),
+						  	// array('filename'=>'2_thumb.png', 'caption'=>'Caption')
 						  ),
 						  'vimeoid'=>''),
 
@@ -237,8 +243,8 @@ $portfolio_hidden = array(
 						  'client'=>'Google','roles'=>'Producer',
 						  'bodytext'=>'Lorem Ipsum Lorem lorem.',
 						  'bodyimages'=>array(
-						  	array('filename'=>'1_thumb.png', 'caption'=>'Caption'),
-						  	array('filename'=>'2_thumb.png', 'caption'=>'Caption')
+						  	// array('filename'=>'1_thumb.png', 'caption'=>'Caption'),
+						  	// array('filename'=>'2_thumb.png', 'caption'=>'Caption')
 						  ),
 						  'vimeoid'=>''),	
 
@@ -246,8 +252,8 @@ $portfolio_hidden = array(
 						  'client'=>'Google','roles'=>'Producer',
 						  'bodytext'=>'Lorem Ipsum Lorem lorem.',
 						  'bodyimages'=>array(
-						  	array('filename'=>'1_thumb.png', 'caption'=>'Caption'),
-						  	array('filename'=>'2_thumb.png', 'caption'=>'Caption')
+						  	// array('filename'=>'1_thumb.png', 'caption'=>'Caption'),
+						  	// array('filename'=>'2_thumb.png', 'caption'=>'Caption')
 						  ),
 						  'vimeoid'=>''),
 
@@ -255,8 +261,8 @@ $portfolio_hidden = array(
 						  'client'=>'Google','roles'=>'Producer',
 						  'bodytext'=>'Lorem Ipsum Lorem lorem.',
 						  'bodyimages'=>array(
-						  	array('filename'=>'1_thumb.png', 'caption'=>'Caption'),
-						  	array('filename'=>'2_thumb.png', 'caption'=>'Caption')
+						  	// array('filename'=>'1_thumb.png', 'caption'=>'Caption'),
+						  	// array('filename'=>'2_thumb.png', 'caption'=>'Caption')
 						  ),
 						  'vimeoid'=>''),	
 
@@ -264,8 +270,8 @@ $portfolio_hidden = array(
 						  'client'=>'Google','roles'=>'Producer',
 						  'bodytext'=>'Lorem Ipsum Lorem lorem.',
 						  'bodyimages'=>array(
-						  	array('filename'=>'1_thumb.png', 'caption'=>'Caption'),
-						  	array('filename'=>'2_thumb.png', 'caption'=>'Caption')
+						  	// array('filename'=>'1_thumb.png', 'caption'=>'Caption'),
+						  	// array('filename'=>'2_thumb.png', 'caption'=>'Caption')
 						  ),
 						  'vimeoid'=>''),
 
@@ -273,8 +279,8 @@ $portfolio_hidden = array(
 						  'client'=>'Independent','roles'=>'Director of Photography, Editor',
 						  'bodytext'=>'A collaboration between myself and '.insertLink('henry').', the film explores the phsychological space that a runner shares with their own shadow. Starring '.insertLink('jody').'.',
 						  'bodyimages'=>array(
-						  	array('filename'=>'1_thumb.png', 'caption'=>'Caption'),
-						  	array('filename'=>'2_thumb.png', 'caption'=>'Caption')
+						  	// array('filename'=>'1_thumb.png', 'caption'=>'Caption'),
+						  	// array('filename'=>'2_thumb.png', 'caption'=>'Caption')
 						  ),
 						  'vimeoid'=>'')
 
