@@ -145,7 +145,7 @@ $portfolio = array(
 						  ),
 						  'vimeoid'=>'380540803'),
 
-	'opening-ceremony-bang-olufsen' => array('title'=>'BEO Play by Bang & Olufsen','description'=>'Case Study Film, Producer','filter_groups'=>'producing','thumbnail'=>'',
+	'opening-ceremony-bang-olufsen' => array('title'=>'BEO Play by Bang & Olufsen','description'=>'Case Study Film, Producer','filter_groups'=>'producing','thumbnail'=>'openingceremony-thumb-1.jpg',
 						  'client'=>'Opening Ceremony','roles'=>'Producer',
 						  'bodytext'=>'A collaboration on all levels. Part music video, part experimental film, part product commercial... Opening Ceremony <a href="https://www.prnewswire.com/news-releases/bo-play-and-opening-ceremony-have-partnered-up-to-present-the-sound-of-fashion---a-vibrant-vivid-and-playful-approach-to-music-design-and-fashion-256527621.html" target="_blank">commissioned a video</a> about their exclusive headphones from Bang & Olufsen, featuring musician Maluca Mala.<br /><br />I produced this project at '.insertLink('lonelyleap').' alongside director '.insertLink('tati').'.',
 						  'bodyimages'=>array(
