@@ -31,10 +31,12 @@ $file_requested = $_GET['filename']
 				. ($_GET['quality'] ? '.q'.$_GET['quality'] : '') 
 				. ($_GET['format'] ? '.'.$_GET['format'] : '');
 
-if (file_exists('serveable/'.$file_requested)) {
+$serveable = 'serveable/'.$file_requested;
+
+if (file_exists($serveable)) {
 	
 	// serve the file
-	header('X-Sendfile: '.__DIR__.'/serveable/'.$file_requested);
+	header('X-Sendfile: '.__DIR__.'/'.$serveable);
 	header('Content-type: image/'.$_GET['format']);
 	header('Content-Disposition: inline; filename="'.$file_requested.'"');
 
@@ -46,10 +48,25 @@ if (file_exists('serveable/'.$file_requested)) {
 
 } else {
 
-	echo '<pre>';
-	print_r($_GET);
-	echo $file_requested . "\n";
+	$highquality = 'highquality/'.$_GET['filename'];
 
-	// generate the file
-	echo 'file does not exist.';
+	if (!file_exists($highquality)) {
+		exit('Neither a serveable file or a high quality source file exist.');
+	}
+
+	// start the imagick class
+	$imagick = new Imagick($highquality);
+
+	// $newwidth = round($_GET['height'] * ($imagick->getImageWidth() / $imagick->getImageHeight()));
+	// echo $newwidth;
+
+	$imagick->scaleImage(0,$_GET['height']);
+
+	$imagick->writeImage($serveable);
+
+	echo '<pre>';
+	print_r($imagick);
+	
+
+
 }
