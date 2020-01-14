@@ -32,17 +32,17 @@ $file_requested = $_GET['filename']
 				. ($_GET['format'] ? '.'.$_GET['format'] : '');
 
 if (file_exists('serveable/'.$file_requested)) {
+	
 	// serve the file
-
 	header('X-Sendfile: '.__DIR__.'/serveable/'.$file_requested);
 	header('Content-type: image/'.$_GET['format']);
 	header('Content-Disposition: inline; filename="'.$file_requested.'"');
 
 	// add a header so these files are cached
 	header('Expires: '.gmdate('D, d M Y H:i:s \G\M\T', time() + (60 * 60 * 24 * 365 * 10))); // 10 years 
+	
 	// override the header that prevents these from being cached
 	header('Cache-Control: public');
-
 
 } else {
 
