@@ -1,10 +1,21 @@
 php_flag log_errors on
 php_value error_log logs/php-log.txt
 
+# for portfolio request mapping
 RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^portfolio/(.*)?$ portfolio/?project=$1 [L]
+
+# for image engine
+XSendFile on
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^images/(.*)?$ images/?filename=$1 [L]
+
+# !! Have to set this bullshit in the fucking /etc/apache2/apache2.conf file because xsendfile is fucking dumb
+	# # enable sending files from parent dirs
+	# XSendFilePath /var/www/
 
 # for favicons
 RewriteRule ^(favicon.ico|browserconfig.xml|manifest.json|safari-pinned-tab.svg|(android-chrome|favicon|mstile)-[0-9]+x[0-9]+.png|apple-touch-icon(-precompressed.png|-[0-9]+x[0-9]+.png|.png)|manifest.json)$ /favicons/$1 [L]
