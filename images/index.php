@@ -64,9 +64,7 @@ if (file_exists($serveable)) {
 
 	$imagick->writeImage($serveable);
 
-	echo '<pre>';
-	print_r($imagick);
-	
-
+	header('Content-Type: image/'.$_GET['format']);
+    echo $imagick->getImageBlob();
 
 }
