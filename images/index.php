@@ -21,8 +21,12 @@ if (isset($_GET['quality'])) {
 }
 
 if (isset($_GET['format'])) {
-	if (!($_GET['format'] == 'jpeg' || $_GET['format'] == 'webp')) {
-		exit('Invalid format requested. Please use either "jpeg" or "webp".');
+	if (!($_GET['format'] == 'jpeg' 
+		// TODO: Enable webp.
+		// || $_GET['format'] == 'webp'
+		)) {
+		// exit('Invalid format requested. Please use either "jpeg" or "webp".');
+		exit('Invalid format requested. Please use "jpeg".');
 	}
 }
 
@@ -50,9 +54,9 @@ if (file_exists($serveable)) {
 
 	// Check that the request is coming from our site, 
 	// to help prevent some malicious script generating tons of files
-	if(parse_url($_SERVER['HTTP_REFERER'])['host'] !== 'benhickson.com') {
-		exit('Files cannot be generated unless requested on a page on benhickson.com');
-	}	
+	// if(parse_url($_SERVER['HTTP_REFERER'])['host'] !== 'benhickson.com') {
+		// exit('Files cannot be generated unless requested on a page on benhickson.com');
+	// }	
 
 	$highquality = 'highquality/'.$_GET['filename'];
 
@@ -65,6 +69,12 @@ if (file_exists($serveable)) {
 
 	// scale the image - width of zero means it maintains the aspect ratio
 	$imagick->scaleImage(0,$_GET['height']);
+
+	// set the compression quality
+	$imagick->setImageCompressionQuality($_GET['quality']);
+
+	// strip out any extraneous data from the file
+    $imagick->stripImage();
 
 	// write it to a file
 	$imagick->writeImage($serveable);

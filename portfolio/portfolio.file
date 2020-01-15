@@ -136,7 +136,7 @@ $portfolio = array(
 						  ),
 						  'vimeoid'=>'381668191'),
 
-	'johnnie-walker' => array('title'=>'Johnnie Walker x Tumi','description'=>'Case Study Film, Producer','filter_groups'=>'producing','thumbnail'=>'',
+	'johnnie-walker' => array('title'=>'Johnnie Walker x Tumi','description'=>'Case Study Film, Producer','filter_groups'=>'producing','thumbnail'=>'johnnie-1.jpg',
 						  'client'=>'Tumi','roles'=>'Producer',
 						  'bodytext'=>'Luggage brand Tumi produced a limited-run suitcase as a promo/collaboration with Johnnie Walker whiskey. This is the promo film for that campaign.<br /><br />I produced this film at '.insertLink('lonelyleap').'. Directed by '.insertLink('nick').'.',
 						  'bodyimages'=>array(
