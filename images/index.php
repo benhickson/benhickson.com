@@ -74,7 +74,7 @@ if (file_exists($serveable)) {
 	$imagick->setImageCompressionQuality($_GET['quality']);
 
 	// strip out any extraneous data from the file
-    $imagick->stripImage();
+	$imagick->stripImage();
 
 	// write it to a file
 	$imagick->writeImage($serveable);
