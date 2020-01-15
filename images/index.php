@@ -63,13 +63,14 @@ if (file_exists($serveable)) {
 	// start the imagick class
 	$imagick = new Imagick($highquality);
 
-	// $newwidth = round($_GET['height'] * ($imagick->getImageWidth() / $imagick->getImageHeight()));
-	// echo $newwidth;
-
+	// scale the image - width of zero means it maintains the aspect ratio
 	$imagick->scaleImage(0,$_GET['height']);
 
+	// write it to a file
 	$imagick->writeImage($serveable);
 
+	// serve it to the user
+	// TODO: reorganize this to be more DRY
 	header('Content-Type: image/'.$_GET['format']);
     echo $imagick->getImageBlob();
 
