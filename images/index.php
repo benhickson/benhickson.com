@@ -72,6 +72,6 @@ if (file_exists($serveable)) {
 	// serve it to the user
 	// TODO: reorganize this to be more DRY
 	header('Content-Type: image/'.$_GET['format']);
-    echo $imagick->getImageBlob();
+	echo $imagick->getImageBlob();
 
 }
