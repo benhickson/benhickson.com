@@ -48,6 +48,12 @@ if (file_exists($serveable)) {
 
 } else {
 
+	// Check that the request is coming from our site, 
+	// to help prevent some malicious script generating tons of files
+	if(parse_url($_SERVER['HTTP_REFERER'])['host'] !== 'benhickson.com') {
+		exit('Files cannot be generated unless requested on a page on benhickson.com');
+	}	
+
 	$highquality = 'highquality/'.$_GET['filename'];
 
 	if (!file_exists($highquality)) {
