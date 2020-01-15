@@ -140,8 +140,10 @@ $portfolio = array(
 						  'client'=>'Tumi','roles'=>'Producer',
 						  'bodytext'=>'Luggage brand Tumi produced a limited-run suitcase as a promo/collaboration with Johnnie Walker whiskey. This is the promo film for that campaign.<br /><br />I produced this film at '.insertLink('lonelyleap').'. Directed by '.insertLink('nick').'.',
 						  'bodyimages'=>array(
-						  	// array('filename'=>'1_thumb.png', 'caption'=>'Caption'),
-						  	// array('filename'=>'2_thumb.png', 'caption'=>'Caption')
+						  	array('filename'=>'johnnie-2.jpg', 'caption'=>''),
+						  	array('filename'=>'johnnie-3.jpg', 'caption'=>''),
+						  	array('filename'=>'johnnie-4.jpg', 'caption'=>''),
+						  	array('filename'=>'johnnie-5.jpg', 'caption'=>'')
 						  ),
 						  'vimeoid'=>'380540803'),
 

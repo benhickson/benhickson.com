@@ -19,7 +19,7 @@
 							<?php foreach ($project['bodyimages'] as $image) {
 								?>
 							<figure data-rt-type="image" data-rt-align="fullwidth" data-rt-max-width="100" class="w-richtext-align-fullwidth wow fadeIn" data-wow-offset="50" data-rt-max-height="56.25" style="max-width: 100%;">
-								<div><img src="images/<?php echo $image['filename']; ?>"></div>
+								<div><img src="images/<?php echo $image['filename']; ?>&height=900&quality=80&format=jpeg"></div>
 								<figcaption><?php echo $image['caption']; ?></figcaption>
 							</figure>
 								<?php
