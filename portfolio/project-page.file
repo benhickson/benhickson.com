@@ -11,7 +11,7 @@
 					</div>
 					<div class="w-col w-col-8">
 						<?php if ($project['vimeoid'] != '') { ?>						
-						<div style="padding-top:56.25%; margin-bottom: 35px;" class="w-video w-embed">
+						<div style="padding-top:<?php require 'oembed-details.file'; oembedPrepare($project['vimeoid']); echo $oembed[$project['vimeoid']]['aspectratiopercent']; ?>%; margin-bottom: 35px;" class="w-video w-embed">
 							<iframe class="w-richtext-align-fullwidth wow fadeIn" data-wow-offset="50" src="https://player.vimeo.com/video/<?php echo $project['vimeoid'] ?>?app_id=122963&amp;wmode=opaque" frameborder="0" allow="autoplay; fullscreen" allowfullscreen="" title="Vimeo: <?php echo $project['title']; ?>"></iframe>
 						</div>
 						<?php } ?>						

@@ -1,0 +1,28 @@
+<?php 
+
+$datafile = 'oembed-data.json';
+
+// load the json into an array
+$oembed = json_decode(file_get_contents($datafile), true);
+
+function oembedPrepare($vimeoid) {
+	
+	global $oembed, $datafile;
+
+	if (array_key_exists($vimeoid, $oembed)) {
+		
+		// do nothing
+
+	} else {
+
+		// get the oembed details, add it to the array
+		$oembed[$vimeoid] = json_decode(file_get_contents('https://vimeo.com/api/oembed.json?url=https://vimeo.com/'.$vimeoid), true);
+
+		// add this new field
+		$oembed[$vimeoid]['aspectratiopercent'] = ( $oembed[$vimeoid]['height'] / $oembed[$vimeoid]['width'] ) * 100;
+
+		// save the back to the file
+		file_put_contents($datafile, json_encode($oembed));
+
+	}
+}
