@@ -299,12 +299,17 @@ $portfolio_hidden = array(
 
 );
 
+
+// setting the "prev" and "next" pointer fields, 
+// including looping around from end to beginning
+
 $portfolio_list = array(null);
 $items = 0;
 foreach ($portfolio as $key => $value) {
 	$portfolio_list[] = $key;
 	$items++;
 }
+
 foreach ($portfolio as $key => $value) {
 	$position = array_search($key, $portfolio_list);
 	$next = $position + 1;
