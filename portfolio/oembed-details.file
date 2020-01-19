@@ -18,6 +18,9 @@ function oembedPrepare($vimeoid) {
 		// get the oembed details, add it to the array
 		$oembed[$vimeoid] = json_decode(file_get_contents('https://vimeo.com/api/oembed.json?url=https://vimeo.com/'.$vimeoid), true);
 
+		// remove all but the fields i want
+		$oembed[$vimeoid] = array_intersect_key($oembed[$vimeoid], array_flip(array('height','width')));
+
 		// add this new field
 		$oembed[$vimeoid]['aspectratiopercent'] = ( $oembed[$vimeoid]['height'] / $oembed[$vimeoid]['width'] ) * 100;
 
