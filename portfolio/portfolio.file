@@ -71,14 +71,18 @@ $portfolio = array(
 						  ),
 						  'vimeoid'=>'375158643'),
 
-	'paragon-honda' => array('title'=>'Paragon Honda','description'=>'Case Study Film, DP','filter_groups'=>'camerawork','thumbnail'=>'',
-						  'client'=>'Google','roles'=>'Director of Photography',
-						  'bodytext'=>'Google\'s Auto Marketing team commissioned a case study film on a successful customer of theirs: Paragon Honda. Paragon Honda is the most successful Honda dealership in the United States.<br /><br />I was Director of Photography, filming across two days around NYC.<br /><br />Directed by '.insertLink('molly').' and produced by '.insertLink('rachel').' at '.insertLink('lonelyleap').'.',
+	'cs-4h' => array('title'=>'CS Education - 4-H','description'=>'Case Study Film, Director of Photography','filter_groups'=>'producing','thumbnail'=>'cs4h-5.jpg',
+						  'client'=>'Google','roles'=>'Producer',
+						  'bodytext'=>'The traditional 4-H programs around the country have modernized, and are now emphasizing programming skills in their youth programs. We made a film highlighting the program in Bruceton Mills, WV, and Google\'s support of the program.<br /><br />Directed and Produced by '.insertLink('cassandra').' at '.insertLink('lonelyleap').'. I was Director of Photography and Drone Operator.',
 						  'bodyimages'=>array(
-						  	// array('filename'=>'1_thumb.png', 'caption'=>'Caption'),
-						  	// array('filename'=>'2_thumb.png', 'caption'=>'Caption')
+						  	array('filename'=>'cs4h-1.jpg', 'caption'=>''),
+						  	array('filename'=>'cs4h-2.jpg', 'caption'=>''),
+						  	array('filename'=>'cs4h-3.jpg', 'caption'=>''),
+						  	array('filename'=>'cs4h-4.jpg', 'caption'=>''),
+						  	array('filename'=>'cs4h-5.jpg', 'caption'=>''),
+						  	array('filename'=>'cs4h-6.jpg', 'caption'=>''),
 						  ),
-						  'vimeoid'=>'379925496'),
+						  'vimeoid'=>'380522284'),
 
 	'ax-connect' => array('title'=>'AX Connect','description'=>'Moodfilm, DP and Editor','filter_groups'=>'camerawork filmpost','thumbnail'=>'amex-1.jpg',
 						  'client'=>'American Express Global Business Travel','roles'=>'Director of Photography, Editor',
@@ -110,12 +114,13 @@ $portfolio = array(
 						  ),
 						  'vimeoid'=>'380530985'),		
 
-	'maxxx-pleasure' => array('title'=>'Maxxx','description'=>'Case Study Film, DP','filter_groups'=>'producing','thumbnail'=>'',
+	'maxxx-pleasure' => array('title'=>'Maxxx','description'=>'Case Study Film, DP','filter_groups'=>'producing','thumbnail'=>'maxxx-2.jpg',
 						  'client'=>'Lonelyleap Original','roles'=>'Producer',
 						  'bodytext'=>'A character piece on Maxxx Pleasure, a multi-award-winning drag performer in NYC.<br /><br />An independent film from '.insertLink('lonelyleap').', I was the Director of Photography, working with co-producers and directors '.insertLink('stevie').' and '.insertLink('nate').'.',
 						  'bodyimages'=>array(
-						  	// array('filename'=>'1_thumb.png', 'caption'=>'Caption'),
-						  	// array('filename'=>'2_thumb.png', 'caption'=>'Caption')
+						  	array('filename'=>'maxxx-2.jpg', 'caption'=>''),
+						  	array('filename'=>'maxxx-7.jpg', 'caption'=>''),
+						  	array('filename'=>'maxxx-6.jpg', 'caption'=>'')
 						  ),
 						  'vimeoid'=>'380529626'),
 
@@ -179,18 +184,15 @@ $portfolio = array(
 						  ),
 						  'vimeoid'=>'380329128'),
 
-	'cs-4h' => array('title'=>'CS Education - 4-H','description'=>'Case Study Film, Director of Photography','filter_groups'=>'producing','thumbnail'=>'cs4h-5.jpg',
-						  'client'=>'Google','roles'=>'Producer',
-						  'bodytext'=>'The traditional 4-H programs around the country have modernized, and are now emphasizing programming skills in their youth programs. We made a film highlighting the program in Bruceton Mills, WV, and Google\'s support of the program.<br /><br />Directed and Produced by '.insertLink('cassandra').' at '.insertLink('lonelyleap').'. I was Director of Photography and Drone Operator.',
+	'paragon-honda' => array('title'=>'Paragon Honda','description'=>'Case Study Film, DP','filter_groups'=>'camerawork','thumbnail'=>'paragon-1.jpg',
+						  'client'=>'Google','roles'=>'Director of Photography',
+						  'bodytext'=>'Google\'s Auto Marketing team commissioned a case study film on a successful customer of theirs: Paragon Honda. Paragon Honda is the most successful Honda dealership in the United States.<br /><br />I was Director of Photography, filming across two days around NYC.<br /><br />Directed by '.insertLink('molly').' and produced by '.insertLink('rachel').' at '.insertLink('lonelyleap').'.',
 						  'bodyimages'=>array(
-						  	array('filename'=>'cs4h-1.jpg', 'caption'=>''),
-						  	array('filename'=>'cs4h-2.jpg', 'caption'=>''),
-						  	array('filename'=>'cs4h-3.jpg', 'caption'=>''),
-						  	array('filename'=>'cs4h-4.jpg', 'caption'=>''),
-						  	array('filename'=>'cs4h-5.jpg', 'caption'=>''),
-						  	array('filename'=>'cs4h-6.jpg', 'caption'=>''),
+						  	array('filename'=>'paragon-1.jpg', 'caption'=>''),
+						  	array('filename'=>'paragon-6.jpg', 'caption'=>''),
+						  	array('filename'=>'paragon-5.jpg', 'caption'=>'')
 						  ),
-						  'vimeoid'=>'380522284'),
+						  'vimeoid'=>'379925496'),
 
 	'tumi-dave-altarescu' => array('title'=>'Dave Altarescu x Tumi','description'=>'Case Study Film, Producer','filter_groups'=>'producing','thumbnail'=>'dave-1.jpg',
 						  'client'=>'Tumi','roles'=>'Producer',
@@ -201,7 +203,7 @@ $portfolio = array(
 						  ),
 						  'vimeoid'=>'380540908'),
 
-	'gip-global-infrastructure-partners' => array('title'=>'Global Infrastructure Partners','description'=>'Case Study Film, Producer','filter_groups'=>'producing','thumbnail'=>'',
+	'gip-global-infrastructure-partners' => array('title'=>'Global Infrastructure Partners','description'=>'Case Study Film, Producer','filter_groups'=>'producing','thumbnail'=>'gip-2.jpg',
 						  'client'=>'Global Infrastructure Partners','roles'=>'Producer',
 						  'bodytext'=>'GIP is investment firm specialized in large industrial projects.<br /><br />Produced and Directed by '.insertLink('cassandra').' at '.insertLink('lonelyleap').', I was Director of Photography on this project.',
 						  'bodyimages'=>array(
