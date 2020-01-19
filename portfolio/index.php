@@ -21,5 +21,5 @@ if (isset($_GET['project']) && array_key_exists($_GET['project'], $portfolio)) {
 }
 
 require '../includes/header.file';
-require 'page.file';
+require 'project-page.file';
 require '../includes/footer.file';
