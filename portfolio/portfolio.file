@@ -51,13 +51,7 @@ $portfolio = array(
 						  'bodyimages'=>array(
 						  	array('filename'=>'booking.com-1.jpg', 'caption'=>'The canal houses of Amsterdam'),
 						  	array('filename'=>'booking.com-2.jpg', 'caption'=>''),
-						  	array('filename'=>'booking.com-3.jpg', 'caption'=>''),
-						  	array('filename'=>'booking.com-4.jpg', 'caption'=>''),
-						  	array('filename'=>'booking.com-5.jpg', 'caption'=>''),
-						  	array('filename'=>'booking.com-6.jpg', 'caption'=>''),
-						  	array('filename'=>'booking.com-7.jpg', 'caption'=>''),
-						  	array('filename'=>'booking.com-8.jpg', 'caption'=>''),
-						  	array('filename'=>'booking.com-9.jpg', 'caption'=>'')
+						  	array('filename'=>'booking.com-7.jpg', 'caption'=>'')
 						  ),
 						  'vimeoid'=>'379919676'),
 
