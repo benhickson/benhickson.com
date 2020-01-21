@@ -73,6 +73,10 @@ if (file_exists($serveable)) {
 	// set the compression quality
 	$imagick->setImageCompressionQuality($_GET['quality']);
 
+	// make the jpeg progressive
+	// TODO: will this break the .webp when that is added?
+	$imagick->setInterlaceScheme(Imagick::INTERLACE_PLANE);
+
 	// strip out any extraneous data from the file
 	$imagick->stripImage();
 
