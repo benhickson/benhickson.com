@@ -64,11 +64,17 @@ if (file_exists($serveable)) {
 		exit('Neither a serveable file or a high quality source file exist.');
 	}
 
-	// start the imagick class
+	// start the imagick class and pass it the original file
 	$imagick = new Imagick($highquality);
 
 	// scale the image - width of zero means it maintains the aspect ratio
 	$imagick->scaleImage(0,$_GET['height']);
+
+	// set image compression
+	$imagick->setImageCompression(Imagick::COMPRESSION_JPEG2000);
+
+	// set image sampling
+	$imagick->setSamplingFactors(array('2x2', '1x1', '1x1'));
 
 	// set the compression quality
 	$imagick->setImageCompressionQuality($_GET['quality']);
