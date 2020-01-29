@@ -9,7 +9,7 @@ code for my homepage
 
 # Notable Features
 - Custom-built image resizing and compression engine
-- Clean routing for portfolio requests and 
+- Clean routing for portfolio requests and full separation of data and presentation
 - Clean routing for housing favicons
 - Integrated with Vimeo API to detect aspect ratio of videos - data is cached
 - Extremely DRY
