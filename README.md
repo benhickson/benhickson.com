@@ -9,7 +9,7 @@ code for my homepage
 - Extremely DRY
 
 ## Setup
-- Start with Apache and PHP
+- Start with an Apache + PHP environment
 - Install the Imagick extension/module for PHP
 - Set the folder `images/serveable` permissions with `chmod` to `777` to enable Imagick to create new images in that folder:
   ```bash
