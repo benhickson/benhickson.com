@@ -12,8 +12,8 @@ code for my homepage
 - Start with Apache and PHP
 - Install the Imagick extension/module for PHP
 - Set the folder `images/serveable` permissions with `chmod` to `777` to enable Imagick to create new images in that folder:
-
-  ```chmod 777 ./images/serveable```
-
+  ```bash
+  chmod 777 ./images/serveable
+  ```
 - Install XSendFile extension/module for PHP
 - Enable XSendFile to send files in the `images/serveable` folder
