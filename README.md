@@ -7,7 +7,7 @@ code for my homepage
 - Install xsendfile for php
 - Enable xsendfile to send files in the `images/serveable` folder
 
-### Notable Features
+## Notable Features
 - Custom-built image resizing and compression engine
 - Clean routing for portfolio requests and full separation of data and presentation
 - Clean routing for housing favicons
