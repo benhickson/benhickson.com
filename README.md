@@ -17,3 +17,8 @@ code for my homepage
   ```
 - Install XSendFile extension/module for PHP
 - Enable XSendFile to send files in the `images/serveable` folder
+
+## Run Locally on OSX (development)
+- Follow these setup instructions to install Apache and PHP properly https://getgrav.org/blog/macos-catalina-apache-multiple-php-versions
+- Add above extensions/modules (Imagick, XSendFile)
+- Modify `/usr/local/etc/httpd/httpd.conf`'s `DocumentRoot` and `<Directory>` paths to point to this project folder
