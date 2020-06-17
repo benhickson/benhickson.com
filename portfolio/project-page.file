@@ -4,7 +4,7 @@
 				<div class="photo-row w-row">
 					<div class="w-col w-col-4">
 						<h1 class="photo-page-title"><?php echo $project['title']; ?></h1>
-						<div class="photo-info-text"><?php echo $project['client']; ?></div>
+						<div class="photo-info-text"><?= $project['category'] == 'web' ? $project['description'] : $project['client'] ?></div>
 						<div class="description-text w-richtext">
 							<p><?php echo $project['bodytext']; ?></p>
 						</div>
@@ -15,11 +15,18 @@
 							<iframe class="w-richtext-align-fullwidth wow fadeIn" data-wow-offset="50" src="https://player.vimeo.com/video/<?php echo $project['vimeoid'] ?>?app_id=122963&amp;wmode=opaque" frameborder="0" allow="autoplay; fullscreen" allowfullscreen="" title="Vimeo: <?php echo $project['title']; ?>"></iframe>
 						</div>
 						<?php } ?>						
-						<div class="w-richtext">
+						<div class="w-richtext <?= $project['add image borders'] ? 'image-borders' : null ?>">
 							<?php foreach ($project['bodyimages'] as $image) {
 								?>
 							<figure data-rt-type="image" data-rt-align="fullwidth" data-rt-max-width="100" class="w-richtext-align-fullwidth wow fadeIn" data-wow-offset="50" data-rt-max-height="56.25" style="max-width: 100%;">
-								<div><img src="images/<?php echo $image['filename']; ?>&height=900&quality=80&format=jpeg"></div>
+								<?php
+									if ($project['category'] == 'web') { ?>
+										<!-- Higher quality images for the web ones -->
+										<div><img src="images/<?php echo $image['filename']; ?>&height=1200&quality=95&format=jpeg"></div>
+									<?php } else { ?>
+										<div><img src="images/<?php echo $image['filename']; ?>&height=900&quality=80&format=jpeg"></div>
+									<?php }
+								?>
 								<figcaption><?php echo $image['caption']; ?></figcaption>
 							</figure>
 								<?php
@@ -50,18 +57,20 @@
 				.arrows.lni-chevron-right{
 					right: 0;
 				}
+				.w-richtext.image-borders figure img{
+					outline: 1px solid #ccc;
+    			margin-top: 20px;
+				}
+				.w-richtext.image-borders figure:nth-of-type(1) img{
+    			margin-top: 1px;
+				}
 			</style>
 			<i class="arrows lni-chevron-left wow fadeIn" onclick="goPrev();"></i>
 			<i class="arrows lni-chevron-right wow fadeIn" onclick="goNext();"></i>
 			<div class="all-images w-container">
-				<h1 class="photo-page-title center">Portfolio</h1>
-				<div class="gallery-wrapper w-dyn-list">
-					<div class="w-dyn-items w-row">
-						<?php 
-							require 'portfolio-items-html.file';
-						?>
-					</div>
-				</div>
+				<?php 
+					require 'portfolio-items-html.file';
+				?>
 			</div>
 		</div>
 

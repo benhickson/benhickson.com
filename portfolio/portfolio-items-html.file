@@ -1,17 +1,54 @@
-<div class="w-dyn-items w-row">
-	<?php 
-	$delay = 0;
-	foreach ($portfolio as $slug => $item) {
-	?>
-		<!-- <div class="w-dyn-item w-col w-col-4 wow fadeIn" data-wow-offset="0" data-wow-delay="<?php echo $delay; ?>ms"> -->
-		<div class="w-dyn-item w-col w-col-4 wow fadeIn" data-wow-offset="50">
-			<a href="portfolio/<?php echo $slug; ?>" class="photo-link-block fade-in w-inline-block">
-				<div style="<?php echo $item['thumbnail'] ? "background-image:url('images/$item[thumbnail]&height=600&quality=80&format=jpeg');" : ''; ?> background-color: white;" class="div-block"></div>
-				<div class="title"><?php echo $item['title']; ?></div>
-			</a>
-		</div>								
-	<?php
-	$delay = $delay + 50;
-	}
-	?>
+<h1 class="photo-page-title center">Web Portfolio</h1>
+<div class="gallery-wrapper w-dyn-list">
+	<div class="w-dyn-items w-row">
+		<div class="w-dyn-items w-row">
+			<?php 
+			foreach ($portfolio as $slug => $item) { 
+				if ($item['category'] == 'web') {
+			?>
+				<div class="w-dyn-item w-col w-col-4 wow fadeIn" data-wow-offset="50">
+					<a href="portfolio/<?php echo $slug; ?>" class="photo-link-block fade-in w-inline-block">
+						<div style="background-image:url('images/<?= $item['thumbnail'] ?>&height=600&quality=80&format=jpeg');
+												background-color: white;" 
+								 class="div-block <?= $item['add image borders'] ? 'portfolio-image-borders' : null ?>"></div>
+						<div class="title"><?php echo $item['title']; ?></div>
+					</a>
+				</div>								
+			<?php	
+				}
+			}	
+			?>
+		</div>
+	</div>
 </div>
+<br><br>
+<br><br>
+<h1 class="photo-page-title center">Film Portfolio</h1>
+<div class="gallery-wrapper w-dyn-list">
+	<div class="w-dyn-items w-row">
+		<div class="w-dyn-items w-row">
+			<?php 
+			foreach ($portfolio as $slug => $item) { 
+				if ($item['category'] == 'film') {
+			?>
+				<div class="w-dyn-item w-col w-col-4 wow fadeIn" data-wow-offset="50">
+					<a href="portfolio/<?php echo $slug; ?>" class="photo-link-block fade-in w-inline-block">
+						<div style="background-image:url('images/<?= $item['thumbnail'] ?>&height=600&quality=80&format=jpeg');
+												background-color: white;" 
+								 class="div-block <?= $item['add image borders'] ? 'portfolio-image-borders' : null ?>"></div>
+						<div class="title"><?php echo $item['title']; ?></div>
+					</a>
+				</div>								
+			<?php	
+				}
+			}	
+			?>
+		</div>
+	</div>
+</div>
+
+<style>
+	.portfolio-image-borders{
+		outline: 1px solid #eee
+	}
+</style>

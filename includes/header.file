@@ -25,7 +25,7 @@
 				<nav id="navbar" role="navigation" class="navigation-menu w-nav-menu">
 					<?php 
 					$navlinks = array(
-						array('id'=>1,'href'=>'','text'=>'Home'),
+						array('id'=>1,'href'=>'','text'=>'Portfolio'),
 						// array('id'=>2,'href'=>'blog','text'=>'Blog'), 			// Blog disabled
 						array('id'=>3,'href'=>'about','text'=>'About / Contact')
 					);
