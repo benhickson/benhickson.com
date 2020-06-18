@@ -2,3 +2,4 @@ logs/*
 images/serveable/*
 !images/serveable/.gitkeep
 other/*
+.DS_Store

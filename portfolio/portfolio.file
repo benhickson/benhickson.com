@@ -41,7 +41,7 @@ function insertLink($shortname){
 
 $portfolio = array(
 
-	'traversalist' => array('category'=>'web','add image borders'=>true,'title'=>'Traversalist','description'=>'Blog / News Site','filter_groups'=>'camerawork','thumbnail'=>'trav-1.png',
+	'traversalist' => array('category'=>'web','add image borders'=>true,'title'=>'Traversalist','description'=>'Blog / News Site','filter_groups'=>'camerawork','thumbnail'=>'trav-1-crop1.png',
 						  'client'=>'','roles'=>'Camera Operator',
 							'bodytext'=>'Part of attending Flatiron School for software engineering involves writing blog posts every so often. Typically, students publish these articles to Medium or Dev.to. However, I viewed it as opportunity to also create my own platform. We only have a few articles so far, but I plan on continuing the site with a few friends contributing to it, and monetizing it through advertising.
 							<br><br>
