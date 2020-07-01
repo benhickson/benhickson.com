@@ -1,4 +1,4 @@
-<h1 class="photo-page-title center">Web Portfolio</h1>
+<h1 class="photo-page-title center bold">Web Portfolio</h1>
 <div class="gallery-wrapper w-dyn-list">
 	<div class="w-dyn-items w-row">
 		<div class="w-dyn-items w-row">
@@ -6,7 +6,7 @@
 			foreach ($portfolio as $slug => $item) { 
 				if ($item['category'] == 'web') {
 			?>
-				<div class="w-dyn-item w-col w-col-4 wow fadeIn" data-wow-offset="50">
+				<div class="w-dyn-item w-col w-col-6 wow fadeIn" data-wow-offset="50">
 					<a href="portfolio/<?php echo $slug; ?>" class="photo-link-block fade-in w-inline-block">
 						<div style="background-image:url('images/<?= $item['thumbnail'] ?>&height=600&quality=80&format=jpeg');
 												background-color: white;" 
@@ -21,9 +21,8 @@
 		</div>
 	</div>
 </div>
-<br><br>
-<br><br>
-<h1 class="photo-page-title center">Film Portfolio</h1>
+<div class="portfolio-section-spacer"></div>
+<h1 class="photo-page-title center bold">Film Portfolio</h1>
 <div class="gallery-wrapper w-dyn-list">
 	<div class="w-dyn-items w-row">
 		<div class="w-dyn-items w-row">
@@ -46,9 +45,3 @@
 		</div>
 	</div>
 </div>
-
-<style>
-	.portfolio-image-borders{
-		outline: 1px solid #eee
-	}
-</style>

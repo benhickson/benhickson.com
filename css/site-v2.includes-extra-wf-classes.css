@@ -223,7 +223,7 @@ html {
 body {
     margin: 0;
     min-height: 100%;
-    background-color: #fff;
+    background-color: #fbfbfb;
     font-family: Arial,sans-serif;
     font-size: 14px;
     line-height: 20px;
@@ -1802,7 +1802,6 @@ textarea.w-input,textarea.w-select {
 
 .w-nav {
     position: relative;
-    background: #dddddd;
     z-index: 1000
 }
 
@@ -2234,7 +2233,6 @@ blockquote {
 .navigation-bar {
     padding-top: 70px;
     padding-bottom: 70px;
-    background-color: #fff;
     text-transform: uppercase;
 }
 
@@ -2246,7 +2244,6 @@ blockquote {
     margin-top: 58px;
     margin-bottom: 124px;
     border-radius: 5px;
-    background-color: #fff;
 }
 
 .navigation-menu {
@@ -2298,7 +2295,6 @@ blockquote {
     position: relative;
     display: block;
     padding-bottom: 63px;
-    background-color: #fff;
 }
 
 .section.centered {
@@ -2454,7 +2450,6 @@ blockquote {
 .main-container {
     padding-right: 20px;
     padding-left: 20px;
-    background-color: #fff;
 }
 
 .form-label {
@@ -2875,7 +2870,9 @@ blockquote {
     text-align: left;
     text-transform: uppercase;
 }
-
+.photo-page-title.bold {
+    font-weight: 600;
+}
 .photo-page-title.center {
     text-align: center;
 }
@@ -3016,7 +3013,18 @@ html.w-mod-js *[data-ix="scale-on-scroll"] {
     transform: scale(0.01, 0.01);
 }
 
+.portfolio-image-borders{
+    outline: 1px solid #eee
+}
+.portfolio-section-spacer{
+    display: block;
+    height: 50px;
+}
+
 @media (max-width: 991px) {
+    .portfolio-section-spacer{
+        height: 30px;
+    }
     .navigation-link {
         padding: 9px 0px;
         color: #ecf0f1;
@@ -3081,7 +3089,11 @@ html.w-mod-js *[data-ix="scale-on-scroll"] {
     .navigation-bar {
         z-index: 1000;
         padding-top: 24px;
-        padding-bottom: 24px;
+        padding-bottom: 34px;
+    }
+
+    .gallery-wrapper {
+        margin-top: 36px;
     }
 
     .hamburger-button {

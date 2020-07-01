@@ -36,35 +36,6 @@
 					</div>
 				</div>
 			</div>
-			<style type="text/css">
-				.arrows{
-					display: block;
-				    position: fixed;
-				    top: 40%;
-				    color: black;
-				    font-size: 20px;
-				    padding: 15px;
-				    cursor: pointer;
-				}
-				@media not screen, (max-width: 830px) {
-					.arrows{
-						display: none;
-					}
-				}
-				.arrows.lni-chevron-left{
-					left: 0;
-				}
-				.arrows.lni-chevron-right{
-					right: 0;
-				}
-				.w-richtext.image-borders figure img{
-					outline: 1px solid #ccc;
-    			margin-top: 20px;
-				}
-				.w-richtext.image-borders figure:nth-of-type(1) img{
-    			margin-top: 1px;
-				}
-			</style>
 			<i class="arrows lni-chevron-left wow fadeIn" onclick="goPrev();"></i>
 			<i class="arrows lni-chevron-right wow fadeIn" onclick="goNext();"></i>
 			<div class="all-images w-container">

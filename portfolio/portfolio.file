@@ -111,18 +111,6 @@ $portfolio = array(
 						  ),
 						  'vimeoid'=>''),
 
-	'benhickson.com' => array('category'=>'web','add image borders'=>true,'title'=>'benhickson.com','description'=>'Personal Portfolio Site','filter_groups'=>'camerawork','thumbnail'=>'benhickson.com-recursive-level3.png',
-						  'client'=>'','roles'=>'Camera Operator',
-							'bodytext'=>'My personal portfolio site. This is the site we\'re on now, together.
-							<br><br>
-							Implemented custom routing functionality, optimizing requests for speed. Developed a custom image generation and caching engine with the PHP Imagick module, to optimize images. Developed a consistent, easy-to-use API for interacting with the image engine and requesting resources.
-							<br><br>
-							Have a look around, stay awhile.',
-						  'bodyimages'=>array(
-						  	array('filename'=>'benhickson.com-recursive-level3.png', 'caption'=>'Well, this is meta.'),
-						  ),
-						  'vimeoid'=>''),
-
 	'greenland' => array('category'=>'film','add image borders'=>false,'title'=>'Greenland','description'=>'Branded Content, DP','filter_groups'=>'camerawork','thumbnail'=>'greenland-thumb1.jpg',
 						  'client'=>'Google','roles'=>'Camera Operator',
 						  'bodytext'=>'Google commissioned the '.insertLink('lonelyleap').' team to create a film to call attention to climate change globally. The film centers around '.insertLink('nikolaj').' (Jamie Lannister from <i>Game of Thrones</i>) trekking around small towns in southern Greenland with "The Trekker", Google\'s backpack-based panoramic Street View camera.<br /><br />I traveled from New York to Copenhagen, joined up with a crew of three Londoners and one Dane, and traveled via plane, boat, four-wheeler and helicopter to remote areas of Greenland.<br /><br />Truly a global effort, the project was led from NYC by '.insertLink('jason').', '.insertLink('molly').', '.insertLink('stephen').', and '.insertLink('stevie').'. On the ground, '.insertLink('letisha').' produced, '.insertLink('stephenroe').' was our DoP, '.insertLink('rob').' was our sound recordist, and '.insertLink('cat').' was our drone operator. I was a camera operator, and leveraged my experience as a producer to uniquely connect the New York and European teams.',
@@ -205,15 +193,6 @@ $portfolio = array(
 						  ),
 						  'vimeoid'=>'380529626'),
 
-	'david-dodge' => array('category'=>'film','add image borders'=>false,'title'=>'David Dodge','description'=>'Case Study Film, DP','filter_groups'=>'producing','thumbnail'=>'dodge-4.jpg',
-						  'client'=>'Google','roles'=>'Producer',
-						  'bodytext'=>'Google\'s Auto Marketing team commissioned a case study film on David Dodge, an auto dealership in Pennsylvania, on their successful Adwords and marketing campaigns.<br /><br />I was Director of Photography, filming across two days around Chadds Ford, PA.<br /><br />Directed by '.insertLink('molly').' and produced by '.insertLink('rachel').' at '.insertLink('lonelyleap').'.',
-						  'bodyimages'=>array(
-						  	array('filename'=>'dodge-1.jpg', 'caption'=>''),
-						  	array('filename'=>'dodge-3.jpg', 'caption'=>'')
-						  ),
-						  'vimeoid'=>'380329692'),
-
 	'cfda' => array('category'=>'film','add image borders'=>false,'title'=>'CFDA Eco Fashion Challenge','description'=>'Case Study Film, DP','filter_groups'=>'producing','thumbnail'=>'cfda-1.jpg',
 						  'client'=>'CFDA: Council of Fashion Designers of America','roles'=>'Producer',
 						  'bodytext'=>'The CFDA holds a yearly award competition called the Eco Fashion Challenge, where new brands compete to push the boundaries of sustainability, in multivariate forms and mediums. This film gives in an insight into their process.<br /><br />I produced this film at '.insertLink('lonelyleap').' with director and cinematographer '.insertLink('davidsmith').'.',
@@ -223,76 +202,7 @@ $portfolio = array(
 						  	array('filename'=>'cfda-3.jpg', 'caption'=>''),
 						  	array('filename'=>'cfda-4.jpg', 'caption'=>'')
 						  ),
-						  'vimeoid'=>'381668191'),
-
-	'johnnie-walker' => array('category'=>'film','add image borders'=>false,'title'=>'Johnnie Walker x Tumi','description'=>'Case Study Film, Producer','filter_groups'=>'producing','thumbnail'=>'johnnie-1.jpg',
-						  'client'=>'Tumi','roles'=>'Producer',
-						  'bodytext'=>'Luggage brand Tumi produced a limited-run suitcase as a promo/collaboration with Johnnie Walker whiskey. This is the promo film for that campaign.<br /><br />I produced this film at '.insertLink('lonelyleap').'. Directed by '.insertLink('nick').'.',
-						  'bodyimages'=>array(
-						  	array('filename'=>'johnnie-2.jpg', 'caption'=>''),
-						  	array('filename'=>'johnnie-3.jpg', 'caption'=>''),
-						  	array('filename'=>'johnnie-4.jpg', 'caption'=>''),
-						  	array('filename'=>'johnnie-5.jpg', 'caption'=>'')
-						  ),
-						  'vimeoid'=>'380540803'),
-
-	'opening-ceremony-bang-olufsen' => array('category'=>'film','add image borders'=>false,'title'=>'BEO Play by Bang & Olufsen','description'=>'Case Study Film, Producer','filter_groups'=>'producing','thumbnail'=>'openingceremony-1.jpg',
-						  'client'=>'Opening Ceremony','roles'=>'Producer',
-						  'bodytext'=>'A collaboration on all levels. Part music video, part experimental film, part product commercial... Opening Ceremony <a href="https://www.prnewswire.com/news-releases/bo-play-and-opening-ceremony-have-partnered-up-to-present-the-sound-of-fashion---a-vibrant-vivid-and-playful-approach-to-music-design-and-fashion-256527621.html" target="_blank">commissioned a video</a> about their exclusive headphones from Bang & Olufsen, featuring musician Maluca Mala.<br /><br />I produced this project at '.insertLink('lonelyleap').' alongside director '.insertLink('tati').'.',
-						  'bodyimages'=>array(
-						  	array('filename'=>'openingceremony-2.jpg', 'caption'=>''),
-						  	array('filename'=>'openingceremony-3.jpg', 'caption'=>''),
-						  	array('filename'=>'openingceremony-4.jpg', 'caption'=>''),
-						  	array('filename'=>'openingceremony-5.jpg', 'caption'=>'')
-						  ),
-						  'vimeoid'=>'380540825'),
-
-	'tumi-kathryn-minshew' => array('category'=>'film','add image borders'=>false,'title'=>'Kathryn Minshew x Tumi','description'=>'Case Study Film, Producer','filter_groups'=>'producing','thumbnail'=>'kathryn-1.jpg',
-						  'client'=>'Tumi','roles'=>'Producer',
-						  'bodytext'=>'Kathryn Minshew is an executive at job and mentorship website <i>The Muse</i>. Luggage brand Tumi commissioned us to produce a character and brand film featuring here.<br /><br />I produced this film at '.insertLink('lonelyleap').' alongside director, shooter, and editor '.insertLink('nick').'.',
-						  'bodyimages'=>array(
-						  	array('filename'=>'kathryn-2.jpg', 'caption'=>''),
-						  	array('filename'=>'kathryn-1.jpg', 'caption'=>'')
-						  ),
-						  'vimeoid'=>'380540861'),
-
-	'goodwill' => array('category'=>'film','add image borders'=>false,'title'=>'Goodwill','description'=>'Case Study Film, Producer','filter_groups'=>'producing','thumbnail'=>'goodwill-1.jpg',
-						  'client'=>'Tumi','roles'=>'Producer',
-						  'bodytext'=>'Goodwill, the discount & secondhand clothing and homegoods store, offers much more to the communities they serve than many are aware of. Their skills-development programs, especially in technology, have been very succesful. Google commissioned a film to share some stories from a program at the Goodwill headquarters in Tulsa, and to publicize their monetary support.<br /><br />I was a camera operator and drone operator on this project, alongside director of photography '.insertLink('bill').', with '.insertLink('anne').' directing and '.insertLink('stevie').' producing, at '.insertLink('lonelyleap').'.',
-						  'bodyimages'=>array(
-						  	array('filename'=>'goodwill-2.jpg', 'caption'=>''),
-						  	array('filename'=>'goodwill-3.jpg', 'caption'=>'')
-						  ),
-						  'vimeoid'=>'380329128'),
-
-	'paragon-honda' => array('category'=>'film','add image borders'=>false,'title'=>'Paragon Honda','description'=>'Case Study Film, DP','filter_groups'=>'camerawork','thumbnail'=>'paragon-1.jpg',
-						  'client'=>'Google','roles'=>'Director of Photography',
-						  'bodytext'=>'Google\'s Auto Marketing team commissioned a case study film on a successful customer of theirs: Paragon Honda. Paragon Honda is the most successful Honda dealership in the United States.<br /><br />I was Director of Photography, filming across two days around NYC.<br /><br />Directed by '.insertLink('molly').' and produced by '.insertLink('rachel').' at '.insertLink('lonelyleap').'.',
-						  'bodyimages'=>array(
-						  	array('filename'=>'paragon-1.jpg', 'caption'=>''),
-						  	array('filename'=>'paragon-6.jpg', 'caption'=>''),
-						  	array('filename'=>'paragon-5.jpg', 'caption'=>'')
-						  ),
-						  'vimeoid'=>'379925496'),
-
-	'tumi-dave-altarescu' => array('category'=>'film','add image borders'=>false,'title'=>'Dave Altarescu x Tumi','description'=>'Case Study Film, Producer','filter_groups'=>'producing','thumbnail'=>'dave-1.jpg',
-						  'client'=>'Tumi','roles'=>'Producer',
-						  'bodytext'=>'Dave Altarescu is a Spotify executive and with that job comes a lot of travelling. We profiled his nomadic lifestyle for luggage brand Tumi.<br /><br />I produced this film at '.insertLink('lonelyleap').' alongside director, shooter, and editor '.insertLink('nick').'.',
-						  'bodyimages'=>array(
-						  	array('filename'=>'dave-1.jpg', 'caption'=>''),
-						  	array('filename'=>'dave-2.jpg', 'caption'=>'')
-						  ),
-						  'vimeoid'=>'380540908'),
-
-	'gip-global-infrastructure-partners' => array('category'=>'film','add image borders'=>false,'title'=>'Global Infrastructure Partners','description'=>'Case Study Film, Producer','filter_groups'=>'producing','thumbnail'=>'gip-2.jpg',
-						  'client'=>'Global Infrastructure Partners','roles'=>'Producer',
-						  'bodytext'=>'GIP is investment firm specialized in large industrial projects.<br /><br />Produced and Directed by '.insertLink('cassandra').' at '.insertLink('lonelyleap').', I was Director of Photography on this project.',
-						  'bodyimages'=>array(
-						  	// array('filename'=>'1_thumb.png', 'caption'=>'Caption'),
-						  	// array('filename'=>'2_thumb.png', 'caption'=>'Caption')
-						  ),
-						  'vimeoid'=>'381668593')
-
+						  'vimeoid'=>'381668191')
 );
 
 $portfolio_hidden = array(
@@ -304,16 +214,96 @@ $portfolio_hidden = array(
 						  	// array('filename'=>'1_thumb.png', 'caption'=>'Caption'),
 						  	// array('filename'=>'2_thumb.png', 'caption'=>'Caption')
 						  ),
-						  'vimeoid'=>''),
+							'vimeoid'=>''),
 
-	'stock-archive' => array('category'=>'film','add image borders'=>false,'title'=>'Stock Archive','description'=>'Case Study Film, DP','filter_groups'=>'programming filmpost','thumbnail'=>'',
-						  'client'=>'Google','roles'=>'Producer',
-						  'bodytext'=>'Lorem Ipsum Lorem lorem.',
-						  'bodyimages'=>array(
-						  	// array('filename'=>'1_thumb.png', 'caption'=>'Caption'),
-						  	// array('filename'=>'2_thumb.png', 'caption'=>'Caption')
-						  ),
-						  'vimeoid'=>''),
+	'david-dodge' => array('category'=>'film','add image borders'=>false,'title'=>'David Dodge','description'=>'Case Study Film, DP','filter_groups'=>'producing','thumbnail'=>'dodge-4.jpg',
+							'client'=>'Google','roles'=>'Producer',
+							'bodytext'=>'Google\'s Auto Marketing team commissioned a case study film on David Dodge, an auto dealership in Pennsylvania, on their successful Adwords and marketing campaigns.<br /><br />I was Director of Photography, filming across two days around Chadds Ford, PA.<br /><br />Directed by '.insertLink('molly').' and produced by '.insertLink('rachel').' at '.insertLink('lonelyleap').'.',
+							'bodyimages'=>array(
+								array('filename'=>'dodge-1.jpg', 'caption'=>''),
+								array('filename'=>'dodge-3.jpg', 'caption'=>'')
+							),
+							'vimeoid'=>'380329692'),							
+
+	'benhickson.com' => array('category'=>'web','add image borders'=>true,'title'=>'benhickson.com','description'=>'Personal Portfolio Site','filter_groups'=>'camerawork','thumbnail'=>'benhickson.com-recursive-level3.png',
+							'client'=>'','roles'=>'Camera Operator',
+							'bodytext'=>'My personal portfolio site. This is the site we\'re on now, together.
+							<br><br>
+							Implemented custom routing functionality, optimizing requests for speed. Developed a custom image generation and caching engine with the PHP Imagick module, to optimize images. Developed a consistent, easy-to-use API for interacting with the image engine and requesting resources.
+							<br><br>
+							Have a look around, stay awhile.',
+							'bodyimages'=>array(
+								array('filename'=>'benhickson.com-recursive-level3.png', 'caption'=>'Well, this is meta.'),
+							),
+							'vimeoid'=>''),
+
+	'johnnie-walker' => array('category'=>'film','add image borders'=>false,'title'=>'Johnnie Walker x Tumi','description'=>'Case Study Film, Producer','filter_groups'=>'producing','thumbnail'=>'johnnie-1.jpg',
+							'client'=>'Tumi','roles'=>'Producer',
+							'bodytext'=>'Luggage brand Tumi produced a limited-run suitcase as a promo/collaboration with Johnnie Walker whiskey. This is the promo film for that campaign.<br /><br />I produced this film at '.insertLink('lonelyleap').'. Directed by '.insertLink('nick').'.',
+							'bodyimages'=>array(
+								array('filename'=>'johnnie-2.jpg', 'caption'=>''),
+								array('filename'=>'johnnie-3.jpg', 'caption'=>''),
+								array('filename'=>'johnnie-4.jpg', 'caption'=>''),
+								array('filename'=>'johnnie-5.jpg', 'caption'=>'')
+							),
+							'vimeoid'=>'380540803'),
+
+	'opening-ceremony-bang-olufsen' => array('category'=>'film','add image borders'=>false,'title'=>'BEO Play by Bang & Olufsen','description'=>'Case Study Film, Producer','filter_groups'=>'producing','thumbnail'=>'openingceremony-1.jpg',
+							'client'=>'Opening Ceremony','roles'=>'Producer',
+							'bodytext'=>'A collaboration on all levels. Part music video, part experimental film, part product commercial... Opening Ceremony <a href="https://www.prnewswire.com/news-releases/bo-play-and-opening-ceremony-have-partnered-up-to-present-the-sound-of-fashion---a-vibrant-vivid-and-playful-approach-to-music-design-and-fashion-256527621.html" target="_blank">commissioned a video</a> about their exclusive headphones from Bang & Olufsen, featuring musician Maluca Mala.<br /><br />I produced this project at '.insertLink('lonelyleap').' alongside director '.insertLink('tati').'.',
+							'bodyimages'=>array(
+								array('filename'=>'openingceremony-2.jpg', 'caption'=>''),
+								array('filename'=>'openingceremony-3.jpg', 'caption'=>''),
+								array('filename'=>'openingceremony-4.jpg', 'caption'=>''),
+								array('filename'=>'openingceremony-5.jpg', 'caption'=>'')
+							),
+							'vimeoid'=>'380540825'),
+
+	'tumi-kathryn-minshew' => array('category'=>'film','add image borders'=>false,'title'=>'Kathryn Minshew x Tumi','description'=>'Case Study Film, Producer','filter_groups'=>'producing','thumbnail'=>'kathryn-1.jpg',
+							'client'=>'Tumi','roles'=>'Producer',
+							'bodytext'=>'Kathryn Minshew is an executive at job and mentorship website <i>The Muse</i>. Luggage brand Tumi commissioned us to produce a character and brand film featuring here.<br /><br />I produced this film at '.insertLink('lonelyleap').' alongside director, shooter, and editor '.insertLink('nick').'.',
+							'bodyimages'=>array(
+								array('filename'=>'kathryn-2.jpg', 'caption'=>''),
+								array('filename'=>'kathryn-1.jpg', 'caption'=>'')
+							),
+							'vimeoid'=>'380540861'),
+
+	'goodwill' => array('category'=>'film','add image borders'=>false,'title'=>'Goodwill','description'=>'Case Study Film, Producer','filter_groups'=>'producing','thumbnail'=>'goodwill-1.jpg',
+							'client'=>'Tumi','roles'=>'Producer',
+							'bodytext'=>'Goodwill, the discount & secondhand clothing and homegoods store, offers much more to the communities they serve than many are aware of. Their skills-development programs, especially in technology, have been very succesful. Google commissioned a film to share some stories from a program at the Goodwill headquarters in Tulsa, and to publicize their monetary support.<br /><br />I was a camera operator and drone operator on this project, alongside director of photography '.insertLink('bill').', with '.insertLink('anne').' directing and '.insertLink('stevie').' producing, at '.insertLink('lonelyleap').'.',
+							'bodyimages'=>array(
+								array('filename'=>'goodwill-2.jpg', 'caption'=>''),
+								array('filename'=>'goodwill-3.jpg', 'caption'=>'')
+							),
+							'vimeoid'=>'380329128'),
+
+	'paragon-honda' => array('category'=>'film','add image borders'=>false,'title'=>'Paragon Honda','description'=>'Case Study Film, DP','filter_groups'=>'camerawork','thumbnail'=>'paragon-1.jpg',
+							'client'=>'Google','roles'=>'Director of Photography',
+							'bodytext'=>'Google\'s Auto Marketing team commissioned a case study film on a successful customer of theirs: Paragon Honda. Paragon Honda is the most successful Honda dealership in the United States.<br /><br />I was Director of Photography, filming across two days around NYC.<br /><br />Directed by '.insertLink('molly').' and produced by '.insertLink('rachel').' at '.insertLink('lonelyleap').'.',
+							'bodyimages'=>array(
+								array('filename'=>'paragon-1.jpg', 'caption'=>''),
+								array('filename'=>'paragon-6.jpg', 'caption'=>''),
+								array('filename'=>'paragon-5.jpg', 'caption'=>'')
+							),
+							'vimeoid'=>'379925496'),
+
+	'tumi-dave-altarescu' => array('category'=>'film','add image borders'=>false,'title'=>'Dave Altarescu x Tumi','description'=>'Case Study Film, Producer','filter_groups'=>'producing','thumbnail'=>'dave-1.jpg',
+							'client'=>'Tumi','roles'=>'Producer',
+							'bodytext'=>'Dave Altarescu is a Spotify executive and with that job comes a lot of travelling. We profiled his nomadic lifestyle for luggage brand Tumi.<br /><br />I produced this film at '.insertLink('lonelyleap').' alongside director, shooter, and editor '.insertLink('nick').'.',
+							'bodyimages'=>array(
+								array('filename'=>'dave-1.jpg', 'caption'=>''),
+								array('filename'=>'dave-2.jpg', 'caption'=>'')
+							),
+							'vimeoid'=>'380540908'),
+
+	'gip-global-infrastructure-partners' => array('category'=>'film','add image borders'=>false,'title'=>'Global Infrastructure Partners','description'=>'Case Study Film, Producer','filter_groups'=>'producing','thumbnail'=>'gip-2.jpg',
+							'client'=>'Global Infrastructure Partners','roles'=>'Producer',
+							'bodytext'=>'GIP is investment firm specialized in large industrial projects.<br /><br />Produced and Directed by '.insertLink('cassandra').' at '.insertLink('lonelyleap').', I was Director of Photography on this project.',
+							'bodyimages'=>array(
+								// array('filename'=>'1_thumb.png', 'caption'=>'Caption'),
+								// array('filename'=>'2_thumb.png', 'caption'=>'Caption')
+							),
+							'vimeoid'=>'381668593'),
 
 	'ascendance' => array('category'=>'film','add image borders'=>false,'title'=>'Ascendance','description'=>'Case Study Film, DP','filter_groups'=>'producing','thumbnail'=>'',
 						  'client'=>'Google','roles'=>'Producer',
