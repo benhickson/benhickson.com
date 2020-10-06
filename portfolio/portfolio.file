@@ -103,7 +103,8 @@ $portfolio = array(
 							'bodytext'=>'While working at '.insertLink('lonelyleap').', I identified an opportunity to enhance our processes. When making documentaries, it\'s typical to shoot many more hours of footage that never make it into the final piece. At the same time, we often need extra footage in another film, to help fill in some bits of a story, such as an establishing shot of a city. To meet these together, I built a web app where teams around the world can upload and tag footage, and make it available to other teams in the company – essentially, an internal stock footage website.
 							<br><br>
 							Try it here:<br>
-							'.insertLink('stock-archive').'
+							'.insertLink('stock-archive').'<br>
+							(Reach out and I can provide you with a login!)
 							<br><br>
 							Implemented automation queues to transcode uploaded assets into multiple resolutions and thumbnails, using ffmpeg. Implemented a custom media server to access transcoded assets with a consistent API. Built custom tagging and search engine logic, implementing Clarifai AI image recognition. Ensured full security for uploaded assets, and all access is logged for regulatory compliance.',
 						  'bodyimages'=>array(
