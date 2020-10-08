@@ -104,7 +104,7 @@ $portfolio = array(
 							<br><br>
 							Try it here:<br>
 							'.insertLink('stock-archive').'<br>
-							(Reach out and I can provide you with a login!)
+							(Email me and I can set you up with access to a demo site.)
 							<br><br>
 							Implemented automation queues to transcode uploaded assets into multiple resolutions and thumbnails, using ffmpeg. Implemented a custom media server to access transcoded assets with a consistent API. Built custom tagging and search engine logic, implementing Clarifai AI image recognition. Ensured full security for uploaded assets, and all access is logged for regulatory compliance.',
 						  'bodyimages'=>array(
