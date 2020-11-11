@@ -1,3 +1,3 @@
 <?php
-header('Location: https://benhickson.com/resume/BenHicksonResume-SoftwareEngineer-2020-0916.pdf');
+header('Location: BenHicksonResume-SoftwareEngineer-2020-1021.pdf');
 exit;
